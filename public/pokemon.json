@@ -31352,6 +31352,612 @@
         "tm power": "70",
         "tm accuracy": "100"
       }
+    ],
+    "sprite" : [
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/bulbasaur.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/bulbasaur.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/ivysaur.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/ivysaur.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/venusaur.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/venusaur.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/charmander.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/charmander.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/charmeleon.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/charmeleon.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/charizard.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/charizard.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/squirtle.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/squirtle.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/wartortle.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/wartortle.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/blastoise.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/blastoise.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/caterpie.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/caterpie.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/metapod.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/metapod.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/butterfree.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/butterfree.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/weedle.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/weedle.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/kakuna.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/kakuna.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/beedrill.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/beedrill.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/pidgey.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/pidgey.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/pidgeotto.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/pidgeotto.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/pidgeot.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/pidgeot.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/rattata.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/rattata.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/raticate.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/raticate.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/spearow.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/spearow.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/fearow.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/fearow.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/ekans.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/ekans.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/arbok.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/arbok.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/pikachu.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/pikachu.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/raichu.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/raichu.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/sandshrew.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/sandshrew.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/sandslash.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/sandslash.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/nidoran.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/nidoran.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/nidorina.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/nidorina.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/nidoqueen.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/nidoqueen.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/nidoran.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/nidoran.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/nidorino.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/nidorino.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/nidoking.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/nidoking.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/clefairy.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/clefairy.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/clefable.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/clefable.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/vulpix.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/vulpix.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/ninetales.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/ninetales.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/jigglypuff.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/jigglypuff.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/wigglytuff.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/wigglytuff.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/zubat.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/zubat.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/golbat.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/golbat.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/oddish.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/oddish.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/gloom.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/gloom.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/vileplume.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/vileplume.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/paras.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/paras.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/parasect.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/parasect.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/venonat.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/venonat.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/venomoth.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/venomoth.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/diglett.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/diglett.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/dugtrio.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/dugtrio.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/meowth.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/meowth.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/persian.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/persian.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/psyduck.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/psyduck.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/golduck.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/golduck.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/mankey.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/mankey.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/primeape.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/primeape.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/growlithe.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/growlithe.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/arcanine.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/arcanine.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/poliwag.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/poliwag.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/poliwhirl.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/poliwhirl.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/poliwrath.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/poliwrath.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/abra.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/abra.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/kadabra.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/kadabra.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/alakazam.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/alakazam.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/machop.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/machop.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/machoke.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/machoke.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/machamp.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/machamp.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/bellsprout.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/bellsprout.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/weepinbell.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/weepinbell.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/victreebel.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/victreebel.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/tentacool.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/tentacool.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/tentacruel.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/tentacruel.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/geodude.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/geodude.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/graveler.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/graveler.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/golem.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/golem.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/ponyta.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/ponyta.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/rapidash.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/rapidash.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/slowpoke.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/slowpoke.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/slowbro.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/slowbro.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/magnemite.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/magnemite.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/magneton.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/magneton.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/farfetch.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/farfetch.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/doduo.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/doduo.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/dodrio.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/dodrio.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/seel.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/seel.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/dewgong.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/dewgong.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/grimer.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/grimer.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/muk.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/muk.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/shellder.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/shellder.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/cloyster.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/cloyster.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/gastly.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/gastly.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/haunter.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/haunter.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/gengar.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/gengar.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/onix.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/onix.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/drowzee.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/drowzee.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/hypno.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/hypno.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/krabby.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/krabby.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/kingler.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/kingler.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/voltorb.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/voltorb.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/electrode.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/electrode.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/exeggcute.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/exeggcute.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/exeggutor.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/exeggutor.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/cubone.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/cubone.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/marowak.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/marowak.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/hitmonlee.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/hitmonlee.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/hitmonchan.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/hitmonchan.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/lickitung.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/lickitung.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/koffing.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/koffing.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/weezing.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/weezing.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/rhyhorn.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/rhyhorn.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/rhydon.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/rhydon.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/chansey.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/chansey.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/tangela.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/tangela.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/kangaskhan.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/kangaskhan.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/horsea.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/horsea.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/seadra.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/seadra.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/goldeen.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/goldeen.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/seaking.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/seaking.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/staryu.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/staryu.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/starmie.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/starmie.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/mr-mime.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/mr-mime.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/scyther.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/scyther.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/jynx.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/jynx.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/electabuzz.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/electabuzz.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/magmar.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/magmar.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/pinsir.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/pinsir.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/tauros.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/tauros.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/magikarp.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/magikarp.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/gyarados.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/gyarados.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/lapras.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/lapras.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/ditto.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/ditto.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/eevee.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/eevee.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/vaporeon.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/vaporeon.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/jolteon.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/jolteon.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/flareon.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/flareon.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/porygon.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/porygon.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/omanyte.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/omanyte.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/omastar.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/omastar.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/kabuto.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/kabuto.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/kabutops.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/kabutops.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/aerodactyl.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/aerodactyl.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/snorlax.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/snorlax.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/articuno.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/articuno.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/zapdos.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/zapdos.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/moltres.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/moltres.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/dratini.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/dratini.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/dragonair.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/dragonair.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/dragonite.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/dragonite.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/mewtwo.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/mewtwo.gif"
+        },
+        {
+            "normal": "http://img.pokemondb.net/sprites/black-white/anim/normal/mew.gif",
+            "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/mew.gif"
+        }
     ]
   }
 }
