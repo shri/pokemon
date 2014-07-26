@@ -1,4 +1,4 @@
-var pokemonlist = {
+{
   "name": "Pokemon",
   "count": 2500,
   "frequency": "realtime",
@@ -31354,5 +31354,5 @@ var pokemonlist = {
       }
     ]
   }
-};
+}
 
