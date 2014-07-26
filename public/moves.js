@@ -1,4 +1,4 @@
-{
+moves = {
   "Absorb":{
     "move":{
       "text":"Absorb",

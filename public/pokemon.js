@@ -1,12 +1,4 @@
-{
-  "name": "Pokemon",
-  "count": 2500,
-  "frequency": "realtime",
-  "version": 2,
-  "newdata": true,
-  "lastrunstatus": "success",
-  "lastsuccess": "Sat Jul 26 2014 21:41:00 GMT+0000 (UTC)",
-  "results": {
+pokemon = {
     "pokemon": [
       {
         "Pokemon": "Bulbasaur",
@@ -31959,6 +31951,5 @@
             "back-normal": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/mew.gif"
         }
     ]
-  }
-}
+  };
 
