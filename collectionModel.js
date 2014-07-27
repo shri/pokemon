@@ -1,4 +1,4 @@
-Users = new Meteor.Colelction('users');
+// Users = new Meteor.Collection('users');
 Pokemons = new Meteor.Collection('pokemons');
 Bag = new Meteor.Collection('bags');
 
