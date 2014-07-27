@@ -135,6 +135,7 @@ game.EnemyEntity = me.ObjectEntity.extend({
         $('canvas').hide();
         Meteor.render(Meteor.loadTemplate('battle'));
         me.game.world.removeChild(this);
+        
         // }
     }
 });
