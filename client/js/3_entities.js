@@ -14,7 +14,7 @@ game.PlayerEntity = me.ObjectEntity.extend({
 
         this.gravity = 0;
 
-        this.speed = 4;
+        this.speed = 16;
 
         var sen = sense.init({});
         sen.orientation({
@@ -64,20 +64,20 @@ game.PlayerEntity = me.ObjectEntity.extend({
 
             this.flipX(true);
             if (this.vel.x > -8) {
-                this.vel.x -= this.speed * 1;
+                this.vel.x = this.speed * 1;
             }
         } else if (me.input.isKeyPressed('right')) {
             this.flipX(false);
             if (this.vel.x < 8) {
-                this.vel.x += this.speed * 1;
+                this.vel.x = this.speed * 1;
             }
         } else if (me.input.isKeyPressed('up')) {
             if (this.vel.y > -8) {
-                this.vel.y -= this.speed * 1;
+                this.vel.y = this.speed * 1;
             }
         } else if (me.input.isKeyPressed('down')) {
             if (this.vel.y < 8) {
-                this.vel.y += this.speed * 1;
+                this.vel.y = this.speed * 1;
             }
         } else {
             this.vel.x = 0;
