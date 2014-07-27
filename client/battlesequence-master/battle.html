@@ -39,6 +39,7 @@
 
             </div>
             <div id="menu">
+                <div id="menu-message"></div>
                 <div id="menu-left">
                     <div id="menu-top-left" class="menu-item">
                         Fight
@@ -49,7 +50,7 @@
                 </div>
                 <div id="menu-right">
                     <div id="menu-top-right" class="menu-item">
-                        Bag
+                        Poké Ball
                     </div>
                     <div id="menu-bottom-right" class="menu-item">
                         Run
@@ -60,20 +61,26 @@
         <script>
         $('#menu-top-left').click(function() {
             console.log('clicked top left - FIGHT');
-            });
-            $('#menu-top-right').click(function(){
-                console.log('clicked top right - BAG');
-            });
-            $('#menu-bottom-left').click(function(){
-                console.log('clicked bottom left - SWITCH');
-            });
-            $('#menu-bottom-right').click(function(){
-                $("#menu").html("&nbsp;&nbsp;You got away safely...!");
-                setTimeout(function(){
-                    $('#battle-content').hide();
-                    $('canvas').show();
-                },2000);
-            });
+        });
+        $('#menu-top-right').click(function() {
+            console.log('clicked top right - POKEBALL');
+        });
+        $('#menu-bottom-left').click(function() {
+            console.log('clicked bottom left - SWITCH');
+        });
+        $('#menu-bottom-right').click(function() {
+            $('#menu-left').hide();
+            $('#menu-right').hide();
+            $("#menu-message").show();
+            $("#menu-message").html("You got away safely...!");
+            setTimeout(function() {
+                $("#menu-message").hide();
+                $('#menu-left').show();
+                $('#menu-right').show();
+                $('#battle-content').hide();
+                $('canvas').show();
+            }, 2000);
+
         });
 		function startBattle()
 		{

@@ -51,11 +51,7 @@ game.PlayerEntity = me.ObjectEntity.extend({
 
     },
 
-    /* -----
-
-        update the player pos
-        
-      ------            */
+    /* update the player pos */
     update: function(dt) {
 
         if (me.input.isKeyPressed('left')) {
@@ -130,12 +126,9 @@ game.EnemyEntity = me.ObjectEntity.extend({
 
     onCollision: function(res, obj) {
         console.log('grass');
-        // if (Math.random(1) < 0.005) {
         $('#battle-content').show();
         $('canvas').hide();
-        Meteor.render(Meteor.loadTemplate('battle'));
+        // Meteor.render(Meteor.loadTemplate('battle'));
         me.game.world.removeChild(this);
-        
-        // }
     }
 });
