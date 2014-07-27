@@ -59,26 +59,30 @@ game.PlayerEntity = me.ObjectEntity.extend({
         
       ------            */
     update: function(dt) {
-        $("#gb").append(", key: "+me.input.isKeyPressed());
+
         if (me.input.isKeyPressed('left')) {
 
             this.flipX(true);
             if (this.vel.x > -8) {
                 this.vel.x = -this.speed * 1;
             }
+            $("#gb2").html(", key: left");
         } else if (me.input.isKeyPressed('right')) {
             this.flipX(false);
             if (this.vel.x < 8) {
                 this.vel.x = this.speed * 1;
             }
+            $("#gb2").html(", key: right");
         } else if (me.input.isKeyPressed('up')) {
             if (this.vel.y > -8) {
                 this.vel.y = -this.speed * 1;
             }
+            $("#gb2").html(", key: up");
         } else if (me.input.isKeyPressed('down')) {
             if (this.vel.y < 8) {
                 this.vel.y = this.speed * 1;
             }
+            $("#gb2").html(", key: down");
         } else {
             this.vel.x = 0;
             this.vel.y = 0;
