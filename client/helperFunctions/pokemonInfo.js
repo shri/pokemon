@@ -593,21 +593,25 @@ pokemonInfo = [
             "base exp": "64"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Seed Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "2 ft. 4 in. (0.71m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "15.2 lbs (6.9 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/bulbasaur.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/bulbasaur.gif"
+      }
    },
    {
       "pokemon": [
@@ -1229,21 +1233,25 @@ pokemonInfo = [
             "base exp": "141"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Seed Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "3 ft. 3 in. (0.99m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "28.7 lbs (13.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/ivysaur.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/ivysaur.gif"
+      }
    },
    {
       "pokemon": [
@@ -1969,21 +1977,25 @@ pokemonInfo = [
             "base exp": "208"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Seed Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "6 ft. 7 in. (2.01m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "220.5 lbs (100.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/venusaur.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/venusaur.gif"
+      }
    },
    {
       "pokemon": [
@@ -2644,21 +2656,25 @@ pokemonInfo = [
             "base exp": "65"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Lizard Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "2 ft. 0 in. (0.61m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "18.7 lbs (8.5 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/charmander.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/charmander.gif"
+      }
    },
    {
       "pokemon": [
@@ -3332,21 +3348,25 @@ pokemonInfo = [
             "base exp": "142"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Flame Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "3 ft. 7 in. (1.09m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "41.9 lbs (19.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/charmeleon.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/charmeleon.gif"
+      }
    },
    {
       "pokemon": [
@@ -4290,21 +4310,25 @@ pokemonInfo = [
             "base exp": "209"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Flame Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "5 ft. 7 in. (1.70m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "199.5 lbs (90.5 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/charizard.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/charizard.gif"
+      }
    },
    {
       "pokemon": [
@@ -4894,21 +4918,25 @@ pokemonInfo = [
             "base exp": "66"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Tiny Turtle Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "1 ft. 8 in. (0.51m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "19.8 lbs (9.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/squirtle.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/squirtle.gif"
+      }
    },
    {
       "pokemon": [
@@ -5524,21 +5552,25 @@ pokemonInfo = [
             "base exp": "143"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Turtle Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "3 ft. 3 in. (0.99m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "49.6 lbs (22.5 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/wartortle.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/wartortle.gif"
+      }
    },
    {
       "pokemon": [
@@ -6323,21 +6355,25 @@ pokemonInfo = [
             "base exp": "210"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Shellfish Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "5 ft. 3 in. (1.60m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "188.5 lbs (85.5 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/blastoise.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/blastoise.gif"
+      }
    },
    {
       "pokemon": [
@@ -6419,11 +6455,15 @@ pokemonInfo = [
             "height": "1 ft. 0 in. (0.30m)"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "weight": "6.4 lbs (2.9 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/caterpie.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/caterpie.gif"
+      }
    },
    {
       "pokemon": [
@@ -6492,11 +6532,15 @@ pokemonInfo = [
             "height": "2 ft. 4 in. (0.71m)"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "weight": "21.8 lbs (9.9 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/metapod.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/metapod.gif"
+      }
    },
    {
       "pokemon": [
@@ -6747,11 +6791,15 @@ pokemonInfo = [
             "height": "3 ft. 7 in. (1.09m)"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "weight": "70.5 lbs (32.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/butterfree.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/butterfree.gif"
+      }
    },
    {
       "pokemon": [
@@ -6833,11 +6881,15 @@ pokemonInfo = [
             "height": "1 ft. 0 in. (0.30m)"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "weight": "7.1 lbs (3.2 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/weedle.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/weedle.gif"
+      }
    },
    {
       "pokemon": [
@@ -6906,11 +6958,15 @@ pokemonInfo = [
             "height": "2 ft. 0 in. (0.61m)"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "weight": "22 lbs (10.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/kakuna.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/kakuna.gif"
+      }
    },
    {
       "pokemon": [
@@ -7584,21 +7640,25 @@ pokemonInfo = [
             "base exp": "159"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Poison Bee Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "3 ft. 3 in. (0.99m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "65 lbs (29.5 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/beedrill.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/beedrill.gif"
+      }
    },
    {
       "pokemon": [
@@ -8100,21 +8160,25 @@ pokemonInfo = [
             "base exp": "55"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Tiny Bird Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "1 ft. 0 in. (0.30m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "4 lbs (1.8 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/pidgey.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/pidgey.gif"
+      }
    },
    {
       "pokemon": [
@@ -8642,21 +8706,25 @@ pokemonInfo = [
             "base exp": "113"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Bird Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "3 ft. 7 in. (1.09m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "66.1 lbs (30.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/pidgeotto.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/pidgeotto.gif"
+      }
    },
    {
       "pokemon": [
@@ -9236,21 +9304,25 @@ pokemonInfo = [
             "base exp": "172"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Bird Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "4 ft. 11 in. (1.50m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "87.1 lbs (39.5 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/pidgeot.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/pidgeot.gif"
+      }
    },
    {
       "pokemon": [
@@ -9872,21 +9944,25 @@ pokemonInfo = [
             "base exp": "57"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Mouse Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "1 ft. 0 in. (0.30m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "7.7 lbs (3.5 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/rattata.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/rattata.gif"
+      }
    },
    {
       "pokemon": [
@@ -10625,21 +10701,25 @@ pokemonInfo = [
             "base exp": "116"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Mouse Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "2 ft. 4 in. (0.71m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "40.8 lbs (18.5 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/raticate.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/raticate.gif"
+      }
    },
    {
       "pokemon": [
@@ -11128,21 +11208,25 @@ pokemonInfo = [
             "base exp": "58"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Tiny Bird Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "1 ft. 0 in. (0.30m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "4.4 lbs (2.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/spearow.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/spearow.gif"
+      }
    },
    {
       "pokemon": [
@@ -11722,21 +11806,25 @@ pokemonInfo = [
             "base exp": "162"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Beak Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "3 ft. 11 in. (1.19m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "83.8 lbs (38.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/fearow.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/fearow.gif"
+      }
    },
    {
       "pokemon": [
@@ -12397,21 +12485,25 @@ pokemonInfo = [
             "base exp": "62"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Snake Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "6 ft. 7 in. (2.01m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "15.2 lbs (6.9 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/ekans.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/ekans.gif"
+      }
    },
    {
       "pokemon": [
@@ -13189,21 +13281,25 @@ pokemonInfo = [
             "base exp": "147"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Cobra Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "11 ft. 6 in. (3.51m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "143.3 lbs (65.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/arbok.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/arbok.gif"
+      }
    },
    {
       "pokemon": [
@@ -13838,21 +13934,25 @@ pokemonInfo = [
             "base exp": "82"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Mouse Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "1 ft. 4 in. (0.41m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "13.2 lbs (6.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/pikachu.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/pikachu.gif"
+      }
    },
    {
       "pokemon": [
@@ -14383,21 +14483,25 @@ pokemonInfo = [
             "base exp": "122"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Mouse Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "2 ft. 7 in. (0.79m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "66.1 lbs (30.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/raichu.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/raichu.gif"
+      }
    },
    {
       "pokemon": [
@@ -15110,21 +15214,25 @@ pokemonInfo = [
             "base exp": "93"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Mouse Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "2 ft. 0 in. (0.61m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "26.5 lbs (12.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/sandshrew.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/sandshrew.gif"
+      }
    },
    {
       "pokemon": [
@@ -15928,21 +16036,25 @@ pokemonInfo = [
             "base exp": "163"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Mouse Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "3 ft. 3 in. (0.99m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "65 lbs (29.5 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/sandslash.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/sandslash.gif"
+      }
    },
    {
       "pokemon": [
@@ -16564,21 +16676,25 @@ pokemonInfo = [
             "base exp": "59"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Poison Pin Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "1 ft. 4 in. (0.41m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "15.4 lbs (7.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/nidoran f.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/nidoran f.gif"
+      }
    },
    {
       "pokemon": [
@@ -17200,21 +17316,25 @@ pokemonInfo = [
             "base exp": "117"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Poison Pin Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "2 ft. 7 in. (0.79m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "44.1 lbs (20.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/nidorina.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/nidorina.gif"
+      }
    },
    {
       "pokemon": [
@@ -18093,21 +18213,25 @@ pokemonInfo = [
             "base exp": "194"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Drill Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "4 ft. 3 in. (1.30m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "132.3 lbs (60.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/nidoqueen.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/nidoqueen.gif"
+      }
    },
    {
       "pokemon": [
@@ -18716,21 +18840,25 @@ pokemonInfo = [
             "base exp": "60"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Poison Pin Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "1 ft. 8 in. (0.51m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "19.8 lbs (9.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/nidoran m.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/nidoran m.gif"
+      }
    },
    {
       "pokemon": [
@@ -19339,21 +19467,25 @@ pokemonInfo = [
             "base exp": "118"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Poison Pin Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "2 ft. 11 in. (0.89m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "43 lbs (19.5 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/nidorino.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/nidorino.gif"
+      }
    },
    {
       "pokemon": [
@@ -20219,21 +20351,25 @@ pokemonInfo = [
             "base exp": "195"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Drill Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "4 ft. 7 in. (1.40m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "136.7 lbs (62.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/nidoking.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/nidoking.gif"
+      }
    },
    {
       "pokemon": [
@@ -21180,21 +21316,25 @@ pokemonInfo = [
             "base exp": "68"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Fairy Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "2 ft. 0 in. (0.61m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "16.5 lbs (7.5 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/clefairy.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/clefairy.gif"
+      }
    },
    {
       "pokemon": [
@@ -21933,21 +22073,25 @@ pokemonInfo = [
             "base exp": "129"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Fairy Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "4 ft. 3 in. (1.30m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "88.2 lbs (40.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/clefable.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/clefable.gif"
+      }
    },
    {
       "pokemon": [
@@ -22250,11 +22394,15 @@ pokemonInfo = [
             "height": "2 ft. 0 in. (0.61m)"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "weight": "21.8 lbs (9.9 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/vulpix.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/vulpix.gif"
+      }
    },
    {
       "pokemon": [
@@ -22375,11 +22523,15 @@ pokemonInfo = [
             "height": "3 ft. 7 in. (1.09m)"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "weight": "43.9 lbs (19.9 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/ninetales.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/ninetales.gif"
+      }
    },
    {
       "pokemon": [
@@ -23209,21 +23361,25 @@ pokemonInfo = [
             "base exp": "76"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Balloon Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "1 ft. 8 in. (0.51m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "12.1 lbs (5.5 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/jigglypuff.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/jigglypuff.gif"
+      }
    },
    {
       "pokemon": [
@@ -23962,21 +24118,25 @@ pokemonInfo = [
             "base exp": "109"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Balloon Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "3 ft. 3 in. (0.99m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "26.5 lbs (12.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/wigglytuff.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/wigglytuff.gif"
+      }
    },
    {
       "pokemon": [
@@ -24556,21 +24716,25 @@ pokemonInfo = [
             "base exp": "54"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Bat Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "2â€²7â€³ (0.79m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "16.5 lbs (7.5 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/zubat.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/zubat.gif"
+      }
    },
    {
       "pokemon": [
@@ -25215,21 +25379,25 @@ pokemonInfo = [
             "base exp": "171"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Bat Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "5 ft. 3 in. (1.60m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "121.3 lbs (55.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/golbat.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/golbat.gif"
+      }
    },
    {
       "pokemon": [
@@ -25773,21 +25941,25 @@ pokemonInfo = [
             "base exp": "78"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Weed Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "1 ft. 8 in. (0.51m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "11.9 lbs (5.4 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/oddish.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/oddish.gif"
+      }
    },
    {
       "pokemon": [
@@ -26383,21 +26555,25 @@ pokemonInfo = [
             "base exp": "132"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Weed Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "2 ft. 7 in. (0.79m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "19 lbs (8.6 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/gloom.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/gloom.gif"
+      }
    },
    {
       "pokemon": [
@@ -26915,21 +27091,25 @@ pokemonInfo = [
             "base exp": "184"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Flower Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "3 ft. 11 in. (1.19m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "41 lbs (18.6 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/vileplume.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/vileplume.gif"
+      }
    },
    {
       "pokemon": [
@@ -27564,21 +27744,25 @@ pokemonInfo = [
             "base exp": "70"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Mushroom Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "1 ft. 0 in. (0.30m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "11.9 lbs (5.4 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/paras.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/paras.gif"
+      }
    },
    {
       "pokemon": [
@@ -28291,21 +28475,25 @@ pokemonInfo = [
             "base exp": "128"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Mushroom Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "3 ft. 3 in. (0.99m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "65 lbs (29.5 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/parasect.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/parasect.gif"
+      }
    },
    {
       "pokemon": [
@@ -28530,11 +28718,15 @@ pokemonInfo = [
             "height": "3 ft. 3 in. (0.99m)"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "weight": "66.1 lbs (30.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/venonat.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/venonat.gif"
+      }
    },
    {
       "pokemon": [
@@ -28850,11 +29042,15 @@ pokemonInfo = [
             "height": "4 ft. 11 in. (1.50m)"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "weight": "27.6 lbs (12.5 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/venomoth.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/venomoth.gif"
+      }
    },
    {
       "pokemon": [
@@ -29450,21 +29646,25 @@ pokemonInfo = [
             "base exp": "81"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Mole Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "0 ft. 8 in. (0.20m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "1.8 lbs (0.8 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/diglett.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/diglett.gif"
+      }
    },
    {
       "pokemon": [
@@ -30177,21 +30377,25 @@ pokemonInfo = [
             "base exp": "153"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Mole Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "2 ft. 4 in. (0.71m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "73.4 lbs (33.3 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/dugtrio.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/dugtrio.gif"
+      }
    },
    {
       "pokemon": [
@@ -30878,21 +31082,25 @@ pokemonInfo = [
             "base exp": "69"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Scratch Cat Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "1 ft. 4 in. (0.41m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "9.3 lbs (4.2 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/meowth.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/meowth.gif"
+      }
    },
    {
       "pokemon": [
@@ -31696,21 +31904,25 @@ pokemonInfo = [
             "base exp": "148"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Classy Cat Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "3 ft. 3 in. (0.99m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "70.5 lbs (32.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/persian.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/persian.gif"
+      }
    },
    {
       "pokemon": [
@@ -32417,21 +32629,25 @@ pokemonInfo = [
             "base exp": "80"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Duck Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "2 ft. 7 in. (0.79m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "43.2 lbs (19.6 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/psyduck.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/psyduck.gif"
+      }
    },
    {
       "pokemon": [
@@ -33229,21 +33445,25 @@ pokemonInfo = [
             "base exp": "174"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Duck Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "5 ft. 7 in. (1.70m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "168.9 lbs (76.6 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/golduck.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/golduck.gif"
+      }
    },
    {
       "pokemon": [
@@ -34034,21 +34254,25 @@ pokemonInfo = [
             "base exp": "74"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Pig Monkey Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "1 ft. 8 in. (0.51m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "61.7 lbs (28.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/mankey.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/mankey.gif"
+      }
    },
    {
       "pokemon": [
@@ -34904,21 +35128,25 @@ pokemonInfo = [
             "base exp": "149"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Pig Monkey Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "3 ft. 3 in. (0.99m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "70.5 lbs (32.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/primeape.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/primeape.gif"
+      }
    },
    {
       "pokemon": [
@@ -35592,21 +35820,25 @@ pokemonInfo = [
             "base exp": "91"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Puppy Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "2 ft. 4 in. (0.71m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "41.9 lbs (19.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/growlithe.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/growlithe.gif"
+      }
    },
    {
       "pokemon": [
@@ -36176,21 +36408,25 @@ pokemonInfo = [
             "base exp": "213"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Legendary Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "6 ft. 3 in. (1.91m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "341.7 lbs (155.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/arcanine.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/arcanine.gif"
+      }
    },
    {
       "pokemon": [
@@ -36702,21 +36938,25 @@ pokemonInfo = [
             "base exp": "77"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Tadpole Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "2â€²0â€³ (0.61m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "27.3 lbs (12.4 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/poliwag.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/poliwag.gif"
+      }
    },
    {
       "pokemon": [
@@ -37345,21 +37585,25 @@ pokemonInfo = [
             "base exp": "131"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Tadpole Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "3 ft. 3 in. (0.99m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "44.1 lbs (20.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/poliwhirl.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/poliwhirl.gif"
+      }
    },
    {
       "pokemon": [
@@ -38014,21 +38258,25 @@ pokemonInfo = [
             "base exp": "185"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Tadpole Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "4 ft. 3 in. (1.30m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "119 lbs (54.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/poliwrath.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/poliwrath.gif"
+      }
    },
    {
       "pokemon": [
@@ -38084,11 +38332,15 @@ pokemonInfo = [
             "height": "2 ft. 11 in. (0.89m)"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "weight": "43 lbs (19.5 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/abra.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/abra.gif"
+      }
    },
    {
       "pokemon": [
@@ -38339,11 +38591,15 @@ pokemonInfo = [
             "height": "4 ft. 3 in. (1.30m)"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "weight": "124.6 lbs (56.5 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/kadabra.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/kadabra.gif"
+      }
    },
    {
       "pokemon": [
@@ -38594,11 +38850,15 @@ pokemonInfo = [
             "height": "4 ft. 11 in. (1.50m)"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "weight": "105.8 lbs (48.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/alakazam.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/alakazam.gif"
+      }
    },
    {
       "pokemon": [
@@ -39311,21 +39571,25 @@ pokemonInfo = [
             "base exp": "75"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Superpower Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "2 ft. 7 in. (0.79m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "43 lbs (19.5 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/machop.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/machop.gif"
+      }
    },
    {
       "pokemon": [
@@ -40064,21 +40328,25 @@ pokemonInfo = [
             "base exp": "146"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Superpower Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "4â€²11â€³ (1.50m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "155.4 lbs (70.5 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/machoke.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/machoke.gif"
+      }
    },
    {
       "pokemon": [
@@ -40869,21 +41137,25 @@ pokemonInfo = [
             "base exp": "193"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Superpower Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "5 ft. 3 in. (1.60m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "286.6 lbs (130.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/machamp.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/machamp.gif"
+      }
    },
    {
       "pokemon": [
@@ -41440,21 +41712,25 @@ pokemonInfo = [
             "base exp": "84"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Flower Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "2 ft. 4 in. (0.71m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "8.8 lbs (4.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/bellsprout.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/bellsprout.gif"
+      }
    },
    {
       "pokemon": [
@@ -42037,21 +42313,25 @@ pokemonInfo = [
             "base exp": "151"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Flycatcher Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "3 ft. 3 in. (0.99m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "14.1 lbs (6.4 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/weepinbell.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/weepinbell.gif"
+      }
    },
    {
       "pokemon": [
@@ -42595,21 +42875,25 @@ pokemonInfo = [
             "base exp": "191"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Flycatcher Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "5 ft. 7 in. (1.70m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "34.2 lbs (15.5 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/victreebel.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/victreebel.gif"
+      }
    },
    {
       "pokemon": [
@@ -43264,21 +43548,25 @@ pokemonInfo = [
             "base exp": "105"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Jellyfish Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "2 ft. 11 in. (0.89m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "100.3 lbs (45.5 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/tentacool.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/tentacool.gif"
+      }
    },
    {
       "pokemon": [
@@ -44011,21 +44299,25 @@ pokemonInfo = [
             "base exp": "205"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Jellyfish Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "5 ft. 3 in. (1.60m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "121.3 lbs (55.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/tentacruel.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/tentacruel.gif"
+      }
    },
    {
       "pokemon": [
@@ -44725,21 +45017,25 @@ pokemonInfo = [
             "base exp": "73"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Rock Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "1 ft. 4 in. (0.41m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "44.1 lbs (20.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/geodude.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/geodude.gif"
+      }
    },
    {
       "pokemon": [
@@ -45465,21 +45761,25 @@ pokemonInfo = [
             "base exp": "134"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Rock Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "3 ft. 3 in. (0.99m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "231.5 lbs (105.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/graveler.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/graveler.gif"
+      }
    },
    {
       "pokemon": [
@@ -46283,21 +46583,25 @@ pokemonInfo = [
             "base exp": "177"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Megaton Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "4 ft. 7 in. (1.40m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "661.4 lbs (300.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/golem.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/golem.gif"
+      }
    },
    {
       "pokemon": [
@@ -46841,21 +47145,25 @@ pokemonInfo = [
             "base exp": "152"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Fire Horse Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "3 ft. 3 in. (0.99m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "66.1 lbs (30.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/ponyta.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/ponyta.gif"
+      }
    },
    {
       "pokemon": [
@@ -47503,21 +47811,25 @@ pokemonInfo = [
             "base exp": "192"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Fire Horse Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "5 ft. 7 in. (1.70m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "209.4 lbs (95.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/rapidash.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/rapidash.gif"
+      }
    },
    {
       "pokemon": [
@@ -48292,21 +48604,25 @@ pokemonInfo = [
             "base exp": "99"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Dopey Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "3 ft. 11 in. (1.19m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "79.4 lbs (36.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/slowpoke.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/slowpoke.gif"
+      }
    },
    {
       "pokemon": [
@@ -49211,21 +49527,25 @@ pokemonInfo = [
             "base exp": "164"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Hermit Crab Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "5 ft. 3 in. (1.60m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "173.1 lbs (78.5 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/slowbro.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/slowbro.gif"
+      }
    },
    {
       "pokemon": [
@@ -49489,11 +49809,15 @@ pokemonInfo = [
             "height": "1 ft. 0 in. (0.30m)"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "weight": "13.2 lbs (6.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/magnemite.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/magnemite.gif"
+      }
    },
    {
       "pokemon": [
@@ -49822,11 +50146,15 @@ pokemonInfo = [
             "height": "3 ft. 3 in. (0.99m)"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "weight": "132.3 lbs (60.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/magneton.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/magneton.gif"
+      }
    },
    {
       "pokemon": [
@@ -50471,21 +50799,25 @@ pokemonInfo = [
             "base exp": "94"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Wild Duck Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "2 ft. 7 in. (0.79m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "33.1 lbs (15.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/farfetch'd.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/farfetch'd.gif"
+      }
    },
    {
       "pokemon": [
@@ -50961,21 +51293,25 @@ pokemonInfo = [
             "base exp": "96"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Twin Bird Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "4 ft. 7 in. (1.40m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "86.4 lbs (39.2 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/doduo.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/doduo.gif"
+      }
    },
    {
       "pokemon": [
@@ -51555,21 +51891,25 @@ pokemonInfo = [
             "base exp": "158"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Triple Bird Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "5 ft. 11 in. (1.80m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "187.8 lbs (85.2 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/dodrio.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/dodrio.gif"
+      }
    },
    {
       "pokemon": [
@@ -52133,21 +52473,25 @@ pokemonInfo = [
             "base exp": "100"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Sea Lion Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "3 ft. 7 in. (1.09m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "198.4 lbs (90.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/seel.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/seel.gif"
+      }
    },
    {
       "pokemon": [
@@ -52802,21 +53146,25 @@ pokemonInfo = [
             "base exp": "176"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Sea Lion Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "5 ft. 7 in. (1.70m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "264.6 lbs (120.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/dewgong.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/dewgong.gif"
+      }
    },
    {
       "pokemon": [
@@ -53555,21 +53903,25 @@ pokemonInfo = [
             "base exp": "90"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Sludge Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "2 ft. 11 in. (0.89m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "66.1 lbs (30.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/grimer.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/grimer.gif"
+      }
    },
    {
       "pokemon": [
@@ -54412,21 +54764,25 @@ pokemonInfo = [
             "base exp": "157"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Sludge Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "3 ft. 11 in. (1.19m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "66.1 lbs (30.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/muk.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/muk.gif"
+      }
    },
    {
       "pokemon": [
@@ -54941,21 +55297,25 @@ pokemonInfo = [
             "base exp": "97"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Bivalve Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "1 ft. 0 in. (0.30m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "8.8 lbs (4.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/shellder.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/shellder.gif"
+      }
    },
    {
       "pokemon": [
@@ -55457,21 +55817,25 @@ pokemonInfo = [
             "base exp": "203"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Bivalve Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "4 ft. 11 in. (1.50m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "292.1 lbs (132.5 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/cloyster.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/cloyster.gif"
+      }
    },
    {
       "pokemon": [
@@ -55709,11 +56073,15 @@ pokemonInfo = [
             "height": "4 ft. 3 in. (1.30m)"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "weight": "0.2 lbs (0.1 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/gastly.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/gastly.gif"
+      }
    },
    {
       "pokemon": [
@@ -55977,11 +56345,15 @@ pokemonInfo = [
             "height": "5 ft. 3 in. (1.60m)"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "weight": "0.2 lbs (0.1 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/haunter.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/haunter.gif"
+      }
    },
    {
       "pokemon": [
@@ -56837,21 +57209,25 @@ pokemonInfo = [
             "base exp": "190"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Shadow Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "4 ft. 11 in. (1.50m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "89.3 lbs (40.5 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/gengar.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/gengar.gif"
+      }
    },
    {
       "pokemon": [
@@ -57642,21 +58018,25 @@ pokemonInfo = [
             "base exp": "108"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Rock Snake Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "28 ft. 10 in. (8.79m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "463 lbs (210.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/onix.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/onix.gif"
+      }
    },
    {
       "pokemon": [
@@ -57920,11 +58300,15 @@ pokemonInfo = [
             "height": "3 ft. 3 in. (0.99m)"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "weight": "71.4 lbs (32.4 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/drowzee.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/drowzee.gif"
+      }
    },
    {
       "pokemon": [
@@ -58266,11 +58650,15 @@ pokemonInfo = [
             "height": "5â€²3â€³ (1.60m)"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "weight": "166.7 lbs (75.6 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/hypno.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/hypno.gif"
+      }
    },
    {
       "pokemon": [
@@ -58928,21 +59316,25 @@ pokemonInfo = [
             "base exp": "115"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "River Crab Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "1 ft. 4 in. (0.41m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "14.3 lbs (6.5 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/krabby.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/krabby.gif"
+      }
    },
    {
       "pokemon": [
@@ -59678,21 +60070,25 @@ pokemonInfo = [
             "base exp": "206"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Pincer Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "4 ft. 3 in. (1.30m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "132.3 lbs (60.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/kingler.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/kingler.gif"
+      }
    },
    {
       "pokemon": [
@@ -59943,11 +60339,15 @@ pokemonInfo = [
             "height": "1 ft. 8 in. (0.51m)"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "weight": "22.9 lbs (10.4 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/voltorb.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/voltorb.gif"
+      }
    },
    {
       "pokemon": [
@@ -60237,11 +60637,15 @@ pokemonInfo = [
             "height": "3 ft. 11 in. (1.19m)"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "weight": "146.8 lbs (66.6 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/electrode.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/electrode.gif"
+      }
    },
    {
       "pokemon": [
@@ -60889,21 +61293,25 @@ pokemonInfo = [
             "base exp": "98"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Egg Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "1 ft. 4 in. (0.41m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "5.5 lbs (2.5 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/exeggcute.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/exeggcute.gif"
+      }
    },
    {
       "pokemon": [
@@ -61512,21 +61920,25 @@ pokemonInfo = [
             "base exp": "212"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Coconut Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "6 ft. 7 in. (2.01m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "264.6 lbs (120.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/exeggutor.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/exeggutor.gif"
+      }
    },
    {
       "pokemon": [
@@ -62252,21 +62664,25 @@ pokemonInfo = [
             "base exp": "87"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Lonely Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "1 ft. 4 in. (0.41m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "14.3 lbs (6.5 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/cubone.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/cubone.gif"
+      }
    },
    {
       "pokemon": [
@@ -63083,21 +63499,25 @@ pokemonInfo = [
             "base exp": "124"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Bone Keeper Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "3 ft. 3 in. (0.99m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "99.2 lbs (45.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/marowak.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/marowak.gif"
+      }
    },
    {
       "pokemon": [
@@ -63810,21 +64230,25 @@ pokemonInfo = [
             "base exp": "139"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Kicking Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "4 ft. 11 in. (1.50m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "109.8 lbs (49.8 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/hitmonlee.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/hitmonlee.gif"
+      }
    },
    {
       "pokemon": [
@@ -64537,21 +64961,25 @@ pokemonInfo = [
             "base exp": "140"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Punching Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "4 ft. 7 in. (1.40m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "110.7 lbs (50.2 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/hitmonchan.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/hitmonchan.gif"
+      }
    },
    {
       "pokemon": [
@@ -65378,21 +65806,25 @@ pokemonInfo = [
             "base exp": "127"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Licking Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "3 ft. 11 in. (1.19m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "144.4 lbs (65.5 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/lickitung.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/lickitung.gif"
+      }
    },
    {
       "pokemon": [
@@ -65630,11 +66062,15 @@ pokemonInfo = [
             "height": "2 ft. 0 in. (0.61m)"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "weight": "2.2 lbs (1.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/koffing.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/koffing.gif"
+      }
    },
    {
       "pokemon": [
@@ -65898,11 +66334,15 @@ pokemonInfo = [
             "height": "3 ft. 11 in. (1.19m)"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "weight": "20.9 lbs (9.5 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/weezing.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/weezing.gif"
+      }
    },
    {
       "pokemon": [
@@ -66615,21 +67055,25 @@ pokemonInfo = [
             "base exp": "135"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Spikes Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "3 ft. 3 in. (0.99m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "253.5 lbs (115.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/rhyhorn.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/rhyhorn.gif"
+      }
    },
    {
       "pokemon": [
@@ -67547,21 +67991,25 @@ pokemonInfo = [
             "base exp": "204"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Drill Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "6 ft. 3 in. (1.91m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "264.6 lbs (120.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/rhydon.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/rhydon.gif"
+      }
    },
    {
       "pokemon": [
@@ -68508,21 +68956,25 @@ pokemonInfo = [
             "base exp": "255"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Egg Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "3 ft. 7 in. (1.09m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "76.3 lbs (34.6 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/chansey.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/chansey.gif"
+      }
    },
    {
       "pokemon": [
@@ -69183,21 +69635,25 @@ pokemonInfo = [
             "base exp": "166"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Vine Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "3 ft. 3 in. (0.99m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "77.2 lbs (35.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/tangela.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/tangela.gif"
+      }
    },
    {
       "pokemon": [
@@ -70050,21 +70506,25 @@ pokemonInfo = [
             "base exp": "175"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Parent Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "7 ft. 3 in. (2.21m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "176.4 lbs (80.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/kangaskhan.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/kangaskhan.gif"
+      }
    },
    {
       "pokemon": [
@@ -70537,21 +70997,25 @@ pokemonInfo = [
             "base exp": "83"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Dragon Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "1 ft. 4 in. (0.41m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "17.6 lbs (8.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/horsea.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/horsea.gif"
+      }
    },
    {
       "pokemon": [
@@ -71089,21 +71553,25 @@ pokemonInfo = [
             "base exp": "155"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Dragon Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "3 ft. 11 in. (1.19m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "55.1 lbs (25.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/seadra.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/seadra.gif"
+      }
    },
    {
       "pokemon": [
@@ -71602,21 +72070,25 @@ pokemonInfo = [
             "base exp": "111"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Goldfish Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "2 ft. 0 in. (0.61m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "33.1 lbs (15.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/goldeen.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/goldeen.gif"
+      }
    },
    {
       "pokemon": [
@@ -72180,21 +72652,25 @@ pokemonInfo = [
             "base exp": "170"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Goldfish Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "4 ft. 3 in. (1.30m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "86 lbs (39.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/seaking.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/seaking.gif"
+      }
    },
    {
       "pokemon": [
@@ -72836,21 +73312,25 @@ pokemonInfo = [
             "base exp": "106"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Star Shape Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "2 ft. 7 in. (0.79m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "76.1 lbs (34.5 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/staryu.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/staryu.gif"
+      }
    },
    {
       "pokemon": [
@@ -73440,21 +73920,25 @@ pokemonInfo = [
             "base exp": "207"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Mysterious Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "3 ft. 7 in. (1.09m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "176.4 lbs (80.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/starmie.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/starmie.gif"
+      }
    },
    {
       "pokemon": [
@@ -73809,11 +74293,15 @@ pokemonInfo = [
             "height": "4 ft. 3 in. (1.30m)"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "weight": "120.2 lbs (54.5 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/mr. mime.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/mr. mime.gif"
+      }
    },
    {
       "pokemon": [
@@ -74500,21 +74988,25 @@ pokemonInfo = [
             "base exp": "187"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Mantis Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "4 ft. 11 in. (1.50m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "123.5 lbs (56.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/scyther.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/scyther.gif"
+      }
    },
    {
       "pokemon": [
@@ -74817,11 +75309,15 @@ pokemonInfo = [
             "height": "4 ft. 7 in. (1.40m)"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "weight": "89.5 lbs (40.6 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/jynx.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/jynx.gif"
+      }
    },
    {
       "pokemon": [
@@ -75495,21 +75991,25 @@ pokemonInfo = [
             "base exp": "156"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Electric Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "3 ft. 7 in. (1.09m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "66.1 lbs (30.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/electabuzz.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/electabuzz.gif"
+      }
    },
    {
       "pokemon": [
@@ -76157,21 +76657,25 @@ pokemonInfo = [
             "base exp": "167"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Spitfire Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "4 ft. 3 in. (1.30m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "98.1 lbs (44.5 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/magmar.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/magmar.gif"
+      }
    },
    {
       "pokemon": [
@@ -76884,21 +77388,25 @@ pokemonInfo = [
             "base exp": "200"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Stag Beetle Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "4 ft. 11 in. (1.50m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "121.3 lbs (55.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/pinsir.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/pinsir.gif"
+      }
    },
    {
       "pokemon": [
@@ -77608,21 +78116,25 @@ pokemonInfo = [
             "base exp": "211"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Wild Bull Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "4 ft. 7 in. (1.40m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "194.9 lbs (88.4 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/tauros.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/tauros.gif"
+      }
    },
    {
       "pokemon": [
@@ -77704,11 +78216,15 @@ pokemonInfo = [
             "height": "2 ft. 11 in. (0.89m)"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "weight": "22 lbs (10.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/magikarp.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/magikarp.gif"
+      }
    },
    {
       "pokemon": [
@@ -78415,21 +78931,25 @@ pokemonInfo = [
             "base exp": "214"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Atrocious Pokémon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "21′4″ (6.50m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "518.1 lbs (235.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/gyarados.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/gyarados.gif"
+      }
    },
    {
       "pokemon": [
@@ -79084,21 +79604,25 @@ pokemonInfo = [
             "base exp": "219"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Transport Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "8 ft. 2 in. (2.49m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "485 lbs (220.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/lapras.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/lapras.gif"
+      }
    },
    {
       "pokemon": [
@@ -79154,11 +79678,15 @@ pokemonInfo = [
             "height": "1 ft. 0 in. (0.30m)"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "weight": "8.8 lbs (4.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/ditto.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/ditto.gif"
+      }
    },
    {
       "pokemon": [
@@ -79422,11 +79950,15 @@ pokemonInfo = [
             "height": "1 ft. 0 in. (0.30m)"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "weight": "14.3 lbs (6.5 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/eevee.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/eevee.gif"
+      }
    },
    {
       "pokemon": [
@@ -80042,21 +80574,25 @@ pokemonInfo = [
             "base exp": "196"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Bubble Jet Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "3â€²3â€³ (0.99m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "63.9 lbs (29.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/vaporeon.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/vaporeon.gif"
+      }
    },
    {
       "pokemon": [
@@ -80704,21 +81240,25 @@ pokemonInfo = [
             "base exp": "197"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Lightning Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "2 ft. 7 in. (0.79m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "54 lbs (24.5 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/jolteon.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/jolteon.gif"
+      }
    },
    {
       "pokemon": [
@@ -81340,21 +81880,25 @@ pokemonInfo = [
             "base exp": "198"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Flame Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "2 ft. 11 (0.89m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "55.1 lbs (25.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/flareon.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/flareon.gif"
+      }
    },
    {
       "pokemon": [
@@ -81592,11 +82136,15 @@ pokemonInfo = [
             "height": "2 ft. 7 in. (0.79m)"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "weight": "80.5 lbs (36.5 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/porygon.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/porygon.gif"
+      }
    },
    {
       "pokemon": [
@@ -82186,21 +82734,25 @@ pokemonInfo = [
             "base exp": "99"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Spiral Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "1 ft. 4 in. (0.41m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "16.5 lbs (7.5 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/omanyte.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/omanyte.gif"
+      }
    },
    {
       "pokemon": [
@@ -82868,21 +83420,25 @@ pokemonInfo = [
             "base exp": "199"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Spiral Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "3 ft. 3 in. (0.99m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "77.2 lbs (35.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/omastar.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/omastar.gif"
+      }
    },
    {
       "pokemon": [
@@ -83459,21 +84015,25 @@ pokemonInfo = [
             "base exp": "99"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Shellfish Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "1 ft. 8 in. (0.51m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "25.4 lbs (11.5 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/kabuto.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/kabuto.gif"
+      }
    },
    {
       "pokemon": [
@@ -84245,21 +84805,25 @@ pokemonInfo = [
             "base exp": "199"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Shellfish Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "4 ft. 3 in. (1.30m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "89.3 lbs (40.5 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/kabutops.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/kabutops.gif"
+      }
    },
    {
       "pokemon": [
@@ -85086,21 +85650,25 @@ pokemonInfo = [
             "base exp": "202"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Fossil Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "5 ft. 11 in. (1.80m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "130.1 lbs (59.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/aerodactyl.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/aerodactyl.gif"
+      }
    },
    {
       "pokemon": [
@@ -85901,21 +86469,25 @@ pokemonInfo = [
             "base exp": "154"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Sleeping Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "6 ft. 11 in. (2.11m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "1014.1 lbs (460.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/snorlax.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/snorlax.gif"
+      }
    },
    {
       "pokemon": [
@@ -86612,21 +87184,25 @@ pokemonInfo = [
             "base exp": "215"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Freeze Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "5 ft. 7 in. (1.70m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "122.1 lbs (55.4 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/articuno.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/articuno.gif"
+      }
    },
    {
       "pokemon": [
@@ -87336,21 +87912,25 @@ pokemonInfo = [
             "base exp": "216"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Electric Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "5 ft. 3 in. (1.60m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "116 lbs (52.6 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/zapdos.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/zapdos.gif"
+      }
    },
    {
       "pokemon": [
@@ -88073,21 +88653,25 @@ pokemonInfo = [
             "base exp": "217"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Flame Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "6 ft. 7 in. (2.01m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "132.3 lbs (60.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/moltres.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/moltres.gif"
+      }
    },
    {
       "pokemon": [
@@ -88703,21 +89287,25 @@ pokemonInfo = [
             "base exp": "67"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Dragon Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "5 ft. 11 in. (1.80m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "7.3 lbs (3.3 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/dratini.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/dratini.gif"
+      }
    },
    {
       "pokemon": [
@@ -89359,21 +89947,25 @@ pokemonInfo = [
             "base exp": "144"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Dragon Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "13 ft. 1 in. (3.99m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "36.4 lbs (16.5 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/dragonair.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/dragonair.gif"
+      }
    },
    {
       "pokemon": [
@@ -90376,21 +90968,25 @@ pokemonInfo = [
             "base exp": "218"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Dragon Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "7 ft. 3 in. (2.21m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "463 lbs (210.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/dragonite.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/dragonite.gif"
+      }
    },
    {
       "pokemon": [
@@ -91454,21 +92050,25 @@ pokemonInfo = [
             "base exp": "220"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "Genetic Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "6 ft. 7 in. (2.01m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "269 lbs (122.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/mewtwo.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/mewtwo.gif"
+      }
    },
    {
       "pokemon": [
@@ -93030,21 +93630,25 @@ pokemonInfo = [
             "base exp": "64"
          }
       ],
-      "collection7": [
+      "species": [
          {
             "species": "New Species Pokemon"
          }
       ],
-      "collection8": [
+      "height": [
          {
             "height": "1 ft. 4 in. (0.41m)"
          }
       ],
-      "collection9": [
+      "weight": [
          {
             "weight": "8.8 lbs (4.0 kg)"
          }
-      ]
+      ],
+      "images": {
+         "front": "http://img.pokemondb.net/sprites/black-white/anim/normal/mew.gif",
+         "back": "http://img.pokemondb.net/sprites/black-white/anim/back-normal/mew.gif"
+      }
    }
 ];
 

@@ -257,24 +257,24 @@ var typemodifiers = {
 		"Dragon" : 1
 	}
 }
-
+// pass offense pokemon instance, defense pokemon instance, and move
 function calcDamage( offense, defense, move )
 {
-	var offtype = pokemon.stats[ offense.pokemon ].types.text;
-	var deftype = pokemon.stats[ defense.pokemon ].types.text;
+	var offtype = pokemonInfo[ offense.pokemon ].stats.types.text;
+	var deftype = pokemonInfo[ defense.pokemon ].stats.types.text;
 	var move = moves[ move ];
 	var movetype = move.type.text;
 
 	var A = offense.level;
 	if ( movetype == "Water" || movetype == "Grass" || movetype == "Fire" || movetype == "Ice" || movetype == "Electric" || movetype == "Psychic")
 	{
-		var B = offense.spatck;
-		var D = defense.spdef;
+		var B = offense.battlespattack;
+		var D = defense.battlespdefense;
 	}
 	else
 	{
-		var B = offense.atck;
-		var D = defense.def;
+		var B = offense.battleattack;
+		var D = defense.battledefense;
 	}
 	var C = moves.power;
 	var X = 1;
