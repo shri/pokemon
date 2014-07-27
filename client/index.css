@@ -19,7 +19,7 @@ canvas {
     margin: auto;
     width: 100vw !important;
     height: auto !important;
-
+    max-width: 100vh;
     /* Hide the gap for font descenders. */
     display: block;
     /* disable scaling interpolation */
