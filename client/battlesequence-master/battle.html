@@ -39,6 +39,7 @@
 
             </div>
             <div id="menu">
+                <div id="switch"></div>
                 <div id="menu-message"></div>
                 <div id="menu-left">
                     <div id="menu-top-left" class="menu-item">
@@ -73,7 +74,7 @@
                 $('#menu-bottom-left').html('SWITCH');
                 $('#menu-top-right').html('POKé BALL');
                 $('#menu-bottom-right').html('RUN');
-            }, 2000);
+            }, 1500);
         });
         $('#menu-top-right').click(function() {
             console.log('clicked top right - POKEBALL');
@@ -82,6 +83,10 @@
         $('#menu-bottom-left').click(function() {
             var pokemonList = currbattle.party;
             console.log('clicked bottom left - SWITCH');
+            for (var poke in pokemonList) {
+                console.log(poke);
+            }
+
         });
         $('#menu-bottom-right').click(function() {
             $('#menu-left').hide();
