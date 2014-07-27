@@ -8,14 +8,14 @@ experiencePoints["Fast"] = [0, 0, 6, 21, 51, 100, 172, 274, 409, 583, 800, 1064,
 function gainExperience( type, opponent, own )
 {
 	var a = ( type == "wild" ) ? 1 : 1.5;
-	return parseInt( a * opponent.level * pokemonInfo[ opponent.pokemon ].exp[ 0 ][ "base exp" ] / 7 );
+	return parseInt( a * opponent.level * pokemonInfo[ opponent.pokemon - 1 ].exp[ 0 ][ "base exp" ] / 7 );
 }
 
 function levelUp( own )
 {
 	var lvl = own.level;
 	var exp = own.experience;
-	var stats = pokemonInfo[ own.pokemon ].stats[ 0 ];
+	var stats = pokemonInfo[ own.pokemon - 1 ].stats[ 0 ];
 	var growth = stats[ "growth rate" ];
 	var boo = false;
 	while ( exp > experiencePoints.growth[ lvl ] )
@@ -45,7 +45,7 @@ function levelUp( own )
 
 function evolve( own )
 {
-	var name = pokemonInfo[ own.pokemon ].pokemon[ 0 ].Pokemon;
+	var name = pokemonInfo[ own.pokemon - 1 ].pokemon[ 0 ].Pokemon;
 	if ( evolutions.name != undefined )
 	{
 		if ( own.level >= evolutions.level )
