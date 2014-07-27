@@ -59,7 +59,7 @@ game.PlayerEntity = me.ObjectEntity.extend({
         
       ------            */
     update: function(dt) {
-
+        $("#gb").append(", key: "+me.input.isKeyPressed());
         if (me.input.isKeyPressed('left')) {
 
             this.flipX(true);
