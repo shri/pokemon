@@ -268,13 +268,13 @@ function calcDamage( offense, defense, move )
 	var A = offense.level;
 	if ( movetype == "Water" || movetype == "Grass" || movetype == "Fire" || movetype == "Ice" || movetype == "Electric" || movetype == "Psychic")
 	{
-		var B = offense.spatck;
-		var D = defense.spdef;
+		var B = offense.battlespattack;
+		var D = defense.battlespdefense;
 	}
 	else
 	{
-		var B = offense.atck;
-		var D = defense.def;
+		var B = offense.battleattack;
+		var D = defense.battledefense;
 	}
 	var C = moves.power;
 	var X = 1;
