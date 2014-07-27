@@ -22,37 +22,6 @@
     $(function() {
         game.onload();
     });
-    var sense = sense.init({
-    });
-    sense.orientation
-    (
-        {
-          alphaThreshold: 365,
-          betaThreshold: 0.10,
-          gammaThreshold: 0.10,
-          radians: true
-        },
-        function(data) {
-            gamma = data.gamma;
-            beta = data.beta;
-            if ( gamma < -.10 )
-            {
-                // left
-            }
-            else if ( gamma > .10 )
-            {
-                // right
-            }
-            if ( beta < -.10 )
-            {
-                // up
-            }
-            else if ( beta > .10 )
-            {
-                // down
-            }
-        }
-    );
 
     </script>
     <script type="text/javascript">
