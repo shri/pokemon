@@ -30,11 +30,12 @@ game.PlayerEntity = me.ObjectEntity.extend({
                 $("#gb").html("gamma: "+gamma+", beta: "+beta);
                 if ( Math.abs( gamma ) > Math.abs( beta ) )
                 {
-                    if ( gamma < -0.10 )
+                    if (gamma > 0.10) {
+                        me.input.triggerKeyEvent(me.input.KEY.RIGHT, true);
+                    }
+                    else if ( gamma < -0.10 )
                     {
                         me.input.triggerKeyEvent(me.input.KEY.LEFT, true);
-                    } else if (gamma > 0.10) {
-                        me.input.triggerKeyEvent(me.input.KEY.RIGHT, true);
                     }
                 }
                 else
