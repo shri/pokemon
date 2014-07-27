@@ -63,9 +63,3 @@ function checkCatch(balltype, target)  {
 
   return false;
 }
-
-
-
-
-
-}
