@@ -90,22 +90,25 @@ function trainerBattle(user, opponent) {
   if (user.whiteout())  {
     user.updateMoney(-user.money/2);
     //console.log("NOOB ALERT");
-    return opponent;
+    return 'loss';
   }
   //if user wins, gain half of opponent's money
   //assuming that the update money takes in the change as a parameter
   if (opponent.whiteout())  {
     user.updateMoney(opponent.money/2);
-    return user;
+    return 'win';
   }
 }
 
 
 
 function wildBattle(user, wild) {
-  //set the two trainers participating in this battle
+  //set the two participating in this battle
   this.user = user;
   this.wild = wild;
+
+  //user.chooseStarter();
+  //var tempwild1 = {pokemon:'1', level: 3, moves: ['Tackle', 'Vine Whip'], attack: 45, defense: 45, spattack: 45, spdefense: 45, speed: 45, HP: 45, remainingHP:45, exp: 45, status: 'non', position: 0};
 
   this.userPokemon = Meteor.call('getPokemonInParty')[0];
 
@@ -124,7 +127,7 @@ function wildBattle(user, wild) {
 
       if (userDecision == 'switch') {
         //get the new pokemon selected by the user, store as newPokemon
-        var newPokemonInt = prompt("enter a number from 1 to 6");
+        var newPokemonInt = prompt("enter a number from 0 to 5");
         userPokemon = user.party[newPokemonInt];
 
         normalizeStats(userPokemon); //method located in battleFunctions.js
