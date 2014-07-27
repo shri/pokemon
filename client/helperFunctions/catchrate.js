@@ -24,7 +24,7 @@ function checkCatch(balltype, target)  {
       S = 25; break;
     case 'par':
       S = 12; break;
-    case 'brn';
+    case 'brn':
       S = 12; break;
     case 'psn':
       S = 12; break;
@@ -32,13 +32,13 @@ function checkCatch(balltype, target)  {
       S = 0; break;
   }
 
-  var R* = R1 - S;
+  var R3 = R1 - S;
 
-  if (R* < 0)  {
+  if (R3 < 0)  {
     return true;
   }
 
-  if (target.catchrate < R*) {
+  if (target.catchrate < R3) {
     return false;
   }
 
@@ -64,8 +64,3 @@ function checkCatch(balltype, target)  {
   return false;
 }
 
-
-
-
-
-}

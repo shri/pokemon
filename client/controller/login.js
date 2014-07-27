@@ -4,6 +4,8 @@ Template.home.greeting = function () {
 
 Template.modalInner.events({
     'click .pokemon': function (event) {
-        $(event.target).siblings().removeClass("active");        
+        $(event.target).siblings().removeClass("active"); 
     }
 });
+
+Meteor.subscribe("pokemons");
