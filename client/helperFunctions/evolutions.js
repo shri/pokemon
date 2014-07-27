@@ -227,7 +227,7 @@ var evolutions = {
 
 function checkEvolution( poke )
 {
-    var evolve = evolutions[ pokemon.pokemon[ poke ].Pokemon ];
+    var evolve = evolutions[ pokemonInfo[ poke - 1 ].pokemon[ 0 ].Pokemon ];
     if ( poke.level >= evolve.level )
     {
         return true;
