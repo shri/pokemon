@@ -17,7 +17,7 @@ function checkCatch(balltype, target)  {
   }
 
   var S;
-  switch(target.getStatus())  {
+  switch(target.status)  {
     case 'slp':
       S = 25; break;
     case 'frz':
@@ -38,11 +38,11 @@ function checkCatch(balltype, target)  {
     return true;
   }
 
-  if (target.getCatchRate() < R*) {
+  if (target.catchrate < R*) {
     return false;
   }
 
-  var F = target.getMaxHP() * 255;
+  var F = target.HP * 255;
   if (balltype == 'greatball')  {
     F /= 8;
   }
@@ -50,8 +50,8 @@ function checkCatch(balltype, target)  {
     F /= 12;
   }
 
-  if (target.getCurrentHP() / 4 > 0)  {
-    F /= (target.getCurrentHP());
+  if (target.remainingHP / 4 > 0)  {
+    F /= (target.remainingHP);
   }
 
   F = Math.min(255, F);
