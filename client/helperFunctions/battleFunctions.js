@@ -44,6 +44,10 @@ useMove = function (attacker, defender, move) {
   if(checkHit(attacker, defender, move))  {
     var damage = calcDamage(attacker, defender, move);
     console.log(damage);
+    if (isNaN(damage) == true)
+    {
+      damage = 0;
+    }
     defender.remainingHP = Math.max(0, defender.remainingHP - damage);
 
     //check for fainting (checks attacker as well for selfdestruct and explosion)
@@ -61,6 +65,7 @@ useMove = function (attacker, defender, move) {
     // if (defender.status != 'fnt') {
     //   move.targetEffect(defender);
     // }
+
     return defender.remainingHP;
   }
 }
