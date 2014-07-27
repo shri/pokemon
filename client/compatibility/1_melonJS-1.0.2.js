@@ -7465,8 +7465,8 @@ window.me = window.me || {};
                     this.onladder = prop.isLadder || prop.isTopLadder;
 
                     if (collision.y > 0) {
-                        if (prop.isSolid ||
-                            (prop.isPlatform && (this._bounds.bottom - 1 <= tile.pos.y)) ||
+                        console.log("collision!");
+                        if (!prop.isPlatform && prop.isSolid  ||
                             (prop.isTopLadder && !this.disableTopLadderCollision)) {
 
                             // adjust position to the corresponding tile
@@ -7480,7 +7480,7 @@ window.me = window.me || {};
                         else if (prop.isSlope && !this.jumping) {
                             // we stop falling
                             this.checkSlope(
-                                this._bounds,
+                                this._bounds, 
                                 tile,
                                 prop.isLeftSlope
                             );
@@ -7510,7 +7510,8 @@ window.me = window.me || {};
                     }
                     // going up, collision with ceiling
                     else if (collision.y < 0) {
-                        if (!prop.isPlatform && !prop.isLadder && !prop.isTopLadder) {
+                        if ( !prop.isLadder ||
+                            (prop.isPlatform && (this._bounds.bottom - 1 <= tile.pos.y)) && !prop.isTopLadder) {
                             if (this.gravity) {
                                 this.falling = true;
                             }
