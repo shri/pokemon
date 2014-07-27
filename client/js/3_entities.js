@@ -26,7 +26,10 @@ game.PlayerEntity = me.ObjectEntity.extend({
             function(data) {
                 gamma = data.gamma;
                 beta = data.beta;
-
+                me.input.triggerKeyEvent(me.input.KEY.RIGHT, false);
+                me.input.triggerKeyEvent(me.input.KEY.LEFT, false);
+                me.input.triggerKeyEvent(me.input.KEY.UP, false);
+                me.input.triggerKeyEvent(me.input.KEY.DOWN, false);
                 $("#gb").html("gamma: "+gamma+", beta: "+beta);
                 if ( Math.abs( gamma ) > Math.abs( beta ) )
                 {
