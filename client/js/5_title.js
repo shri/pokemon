@@ -3,13 +3,6 @@ game.TitleScreen = me.ScreenObject.extend({
      *  action to perform on state change
      */
     onResetEvent: function() {
-        me.game.world.addChild(
-            new me.SpriteObject(
-                0, 0,
-                me.loader.getImage('title_screen')
-            ),
-            1
-        );
     },
 
 
