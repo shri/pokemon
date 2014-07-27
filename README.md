@@ -1,4 +1,4 @@
-pokemon
+poké.js
 =======
 
-A meteor Pokemon App
+Pokémon powered by Meteor and melon.js. By Kevin Tu, Shri Ganeshram, Donald Little, Victor Zhang and Connie Huang.
