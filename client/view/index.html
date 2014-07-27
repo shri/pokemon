@@ -17,25 +17,9 @@
         <div>
             {{> yield}}
         </div>
-        <!--         <div id="gb"></div>
-        <div id="gb2"></div> -->
-        <!-- <img src="data/img/sprite/gameboy.png" class="gameboy" alt=""> -->
         <div id="battle-content">
             {{> battle}}
         </div>
-        <button id="battle-btn" class="btn btn-default btn-small" value="TEMP Battle Button">Battle</button>
 
     </body>
-
-    <script type="text/javascript">
-    $("#battle-btn").click(function() {
-        $('#battle-content').show();
-        $('canvas').hide();
-        Meteor.render(Meteor.loadTemplate('battle'));
-        setTimeout(function() {
-            $('#battle-content').hide();
-        }, 1000);
-    });
-    </script>
-
 </template>

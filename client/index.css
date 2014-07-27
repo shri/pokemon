@@ -9,17 +9,16 @@ body {
     -ms-touch-action: none;
     touch-action: none;
     /* Allow canvas to hit the edges of the browser viewport. */
-    margin: 0
+    margin: 0;
+    background: #000;
 }
 #screen {
     margin: 0 auto;
 }
 canvas {
     margin: auto;
-/*    height: 400px !important;
-    width: 400px!important;*/
     width: 100vw !important;
-    height: auto;
+    height: auto !important;
 
     /* Hide the gap for font descenders. */
     display: block;

@@ -30,8 +30,7 @@ game.PlayerEntity = me.ObjectEntity.extend({
                 me.input.triggerKeyEvent(me.input.KEY.LEFT, false);
                 me.input.triggerKeyEvent(me.input.KEY.UP, false);
                 me.input.triggerKeyEvent(me.input.KEY.DOWN, false);
-                if ( Math.abs( gamma ) > Math.abs( beta ) )
-                {
+                if (Math.abs(gamma) > Math.abs(beta)) {
                     if (gamma > 0.10) {
                         me.input.triggerKeyEvent(me.input.KEY.RIGHT, true);
                     }
@@ -134,7 +133,10 @@ game.EnemyEntity = me.ObjectEntity.extend({
     onCollision: function(res, obj) {
         console.log('grass');
         if (Math.random(1) < 0.005) {
-            alert('pokemon battle!');
+
+            $('#battle-content').show();
+            $('canvas').hide();
+            Meteor.render(Meteor.loadTemplate('battle'));
             me.game.world.removeChild(this);
         }
     }
