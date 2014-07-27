@@ -1,5 +1,5 @@
 Template.home.greeting = function () {
-    return "Welcome to pokemon-meteor.";
+    return "Welcome to Pokemon!";
 };
 
 Template.modalInner.events({

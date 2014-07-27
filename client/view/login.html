@@ -1,21 +1,19 @@
 <template name="home">
-    <h1>Hello World!</h1>
     <p>{{greeting}}</p>
-    <br />
-
-    {{> loginButtons}}
-<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-  Launch demo modal
-</button>
+    <br />{{> loginButtons}}
+    <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+        Select Starter Pokemon
+    </button>
     {{> modal}}
 </template>
 
 
-<template name="modal">      
+<template name="modal">
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         {{> modalInner}}
-    </div><!-- /.modal -->
-</template>      
+    </div>
+    <!-- /.modal -->
+</template>
 
 <template name="modalInner">
     <div class="modal-dialog">
@@ -25,35 +23,36 @@
                     <span aria-hidden="true">&times;</span>
                     <span class="sr-only">Close</span>
                 </button>
-                <h4 class="modal-title">Choose Your Starter Pokemon! </h4>
+                <h4 class="modal-title">Choose Your Starter Pokemon!</h4>
             </div>
             <div class="modal-body text-center ">
-                
+
                 <div class="tab-content">
                     <div class="tab-pane active" id="bulbasaur">
-                        <img src="http://img.pokemondb.net/sprites/black-white/anim/normal/bulbasaur.gif" /> <br />
-                        Bulbasaur
+                        <img src="http://img.pokemondb.net/sprites/black-white/anim/normal/bulbasaur.gif" />
+                        <br />Bulbasaur
                     </div>
                     <div class="tab-pane" id="charmander">
-                        <img src="http://img.pokemondb.net/sprites/black-white/anim/normal/charmander.gif" /> <br />
-                        Charmander
+                        <img src="http://img.pokemondb.net/sprites/black-white/anim/normal/charmander.gif" />
+                        <br />Charmander
                     </div>
                     <div class="tab-pane" id="squirtle">
-                        <img src="http://img.pokemondb.net/sprites/black-white/anim/normal/squirtle.gif" /> <br />
-                        Squirtle
+                        <img src="http://img.pokemondb.net/sprites/black-white/anim/normal/squirtle.gif" />
+                        <br />Squirtle
                     </div>
-                </div>  
+                </div>
                 <div style="height: 15px;"></div>
                 <div id="tab" class="btn-group" data-toggle="buttons-radio">
-                  <a href="#bulbasaur" class="btn btn-large btn-primary pokemon" data-toggle="tab">Bulbasaur</a>
-                  <a href="#charmander" class="btn btn-large btn-primary pokemon" data-toggle="tab">Charmander</a>
-                  <a href="#squirtle" class="btn btn-large btn-primary pokemon"  data-toggle="tab">Squirtle</a>
+                    <a href="#bulbasaur" class="btn btn-large btn-primary pokemon" data-toggle="tab">Bulbasaur</a>
+                    <a href="#charmander" class="btn btn-large btn-primary pokemon" data-toggle="tab">Charmander</a>
+                    <a href="#squirtle" class="btn btn-large btn-primary pokemon" data-toggle="tab">Squirtle</a>
                 </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Save changes</button>
             </div>
-        </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
 </template>
