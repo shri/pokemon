@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="24" height="20" tilewidth="16" tileheight="16">
  <tileset firstgid="1" name="normal1" tilewidth="16" tileheight="16">
   <image source="../img/map/normal1.png" width="512" height="512"/>
@@ -43,6 +44,13 @@
     <property name="duration" value="250"/>
     <property name="fade" value="#000000"/>
     <property name="to" value="inside_house"/>
+   </properties>
+  </object>
+  <object name="me.LevelEntity" x="192" y="0" width="32" height="16">
+   <properties>
+    <property name="duration" value="250"/>
+    <property name="fade" value="#000000"/>
+    <property name="to" value="area04"/>
    </properties>
   </object>
  </objectgroup>
