@@ -257,11 +257,11 @@ var typemodifiers = {
 		"Dragon" : 1
 	}
 }
-
+// pass offense pokemon instance, defense pokemon instance, and move
 function calcDamage( offense, defense, move )
 {
-	var offtype = pokemon.stats[ offense.pokemon ].types.text;
-	var deftype = pokemon.stats[ defense.pokemon ].types.text;
+	var offtype = pokemon[ offense.pokemon ].stats.types.text;
+	var deftype = pokemon[ defense.pokemon ].stats.types.text;
 	var move = moves[ move ];
 	var movetype = move.type.text;
 
