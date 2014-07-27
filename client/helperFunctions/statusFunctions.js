@@ -1,5 +1,5 @@
 //changes the status of a pokemon during battle and applies the appropriate stat changes
-function updateStatus(pokemon, status)  {
+updateStatus = function (pokemon, status)  {
   if (status != 'psn' && status != 'par' && status != 'slp' && status != 'frz' && status != 'brn' && status != 'non' && status != 'fnt') {
     throw new Meteor.Error("passed invalid status string: " + status + ". status must be par, slp, frz, brn, fnt, or non");
   }
@@ -80,7 +80,7 @@ function healStatus(pokemon, status)  {
 }
 
 //heals the pokemon by a specific point value
-function updateRemainingHP(pokemon, points)  {
+updateRemainingHP = function (pokemon, points)  {
   pokemon.remainingHP = Math.min(pokemon.HP, pokemon.remainingHP + points);
 }
 

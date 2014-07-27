@@ -233,12 +233,25 @@ battle.prototype.useAttack = function(move)  {
   if (this.user.speed >= this.wild.speed)  {
     var rHP = useMove(this.userpokemon, this.wild, move);
     attackTrainerPokemon(rHP,this.userpokemon.HP);
+    if (rHP <= 0)
+    {
+      winBattle();
+      return;
+    }
     this.getAttacked();
   }
   else {
-    this.getAttacked();
+    var rHP = this.getAttacked();
+    if (rHP <= 0)
+    {
+      return;
+    }
     var rHP = useMove(this.userpokemon, this.wild, move);
     attackTrainerPokemon(rHP,this.userpokemon.HP);
+    if (rHP <= 0)
+    {
+      return;
+    }
   }
 }
 
@@ -249,6 +262,10 @@ battle.prototype.runAway = function()  {
 battle.prototype.getAttacked = function() {
   var rHP = useMove(this.wild, this.userpokemon, this.wildmoves[0]);
   attackOpponentPokemon(rHP,this.wild.HP);
+  if (rHP <= 0)
+    {
+      return rHP;
+    }
 }
 
 battle.prototype.useItem = function(item) {

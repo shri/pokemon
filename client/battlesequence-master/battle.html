@@ -126,6 +126,21 @@
 
         });
 
+        winBattle = function()
+        {
+            $('#menu-left').hide();
+            $('#menu-right').hide();
+            $("#menu-message").show();
+            $("#menu-message").html("You won!");
+            setTimeout(function() {
+                $("#menu-message").hide();
+                $('#menu-left').show();
+                $('#menu-right').show();
+                $('#battle-content').hide();
+                $('canvas').show();
+            }, 2000);
+        }
+
         function startBattle() {
             var user = {
 			  username:'000001',

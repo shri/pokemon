@@ -278,7 +278,7 @@ calcDamage = function ( offense, defense, move )
 		var B = offense.attack;
 		var D = defense.defense;
 	}
-	var C = moves.power;
+	var C = move.power;
 	var X = 1;
 	if ( offtype == movetype )
 	{
