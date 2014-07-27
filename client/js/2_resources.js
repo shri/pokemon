@@ -5,11 +5,9 @@ game.resources = [
 	// our level tileset
 	{name: "area01_level_tiles",  type:"image",	src: "data/img/map/area01_level_tiles.png"},
 	{name: "normal1",  type:"image",	src: "data/img/map/normal1.png"},
-	{name: "PGTileseti",  type:"image",	src: "data/img/map/PGTileseti.png"},
+	{name: "normal2",  type:"image",	src: "data/img/map/normal2.png"},
+	{name: "metatiles16x16",  type:"image", src: "data/img/map/metatiles16x16.png"},
 
-	
-	// our metatiles
-	{name: "metatiles32x32",  type:"image", src: "data/img/map/metatiles32x32.png"},
 	// the main player spritesheet
 	{name: "gripe_run_right",     type:"image",	src: "data/img/sprite/gripe_run_right.png"},
 	// the parallax background
@@ -25,7 +23,8 @@ game.resources = [
 	/* 
 	 * Maps. 
  	 */
-	{name: "area01",              type: "tmx",	src: "data/map/area01.tmx"},
+	{name: "area02",              type: "tmx",	src: "data/map/area02.tmx"},
+	{name: "area03",              type: "tmx",	src: "data/map/area03.tmx"},
 	{name: "area04",              type: "tmx",	src: "data/map/map2.tmx"},
 
 
