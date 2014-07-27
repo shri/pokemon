@@ -61,26 +61,44 @@
         </div>
         <script>
         var currbattle = {};
+        var fight = false;
         $('#menu-top-left').click(function() {
+        	if ( fight == true)
+        	{
+        		currbattle.useAttack($(this).text());
+        		return;
+        	}
             var moves = currbattle.userpokemon.moves;
             console.log('clicked top left - FIGHT');
             $('#menu-top-left').html(moves[0]);
             $('#menu-bottom-left').html(moves[1]);
             $('#menu-top-right').html(moves[2]);
             $('#menu-bottom-right').html(moves[3]);
+            fight = true;
 
             setTimeout(function() {
                 $('#menu-top-left').html('FIGHT');
                 $('#menu-bottom-left').html('SWITCH');
                 $('#menu-top-right').html('POKé BALL');
                 $('#menu-bottom-right').html('RUN');
-            }, 1500);
+                fight = false;
+            }, 2500);
         });
         $('#menu-top-right').click(function() {
+        	if ( fight == true)
+        	{
+        		currbattle.useAttack($(this).text());
+        		return;
+        	}
             console.log('clicked top right - POKEBALL');
             currbattle.usePokeball();
         });
         $('#menu-bottom-left').click(function() {
+        	if ( fight == true)
+        	{
+        		currbattle.useAttack($(this).text());
+        		return;
+        	}
             var pokemonList = currbattle.party;
             console.log('clicked bottom left - SWITCH');
             for (var poke in pokemonList) {
@@ -89,6 +107,11 @@
 
         });
         $('#menu-bottom-right').click(function() {
+        	if ( fight == true)
+        	{
+        		currbattle.useAttack($(this).text());
+        		return;
+        	}
             $('#menu-left').hide();
             $('#menu-right').hide();
             $("#menu-message").show();
