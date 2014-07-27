@@ -25,20 +25,20 @@
   </data>
  </layer>
  <objectgroup name="Entities" width="24" height="20">
-  <object name="mainPlayer" x="175" y="154" width="16" height="16">
+  <object name="mainPlayer" x="160" y="144" width="16" height="16">
    <properties>
     <property name="image" value="gripe_run_right"/>
     <property name="spritewidth" value="16"/>
    </properties>
   </object>
-  <object name="me.LevelEntity" x="96" y="112" width="16" height="16">
+  <object name="me.LevelEntity" x="95" y="101" width="16" height="16">
    <properties>
     <property name="duration" value="250"/>
     <property name="fade" value="#000000"/>
     <property name="to" value="inside_house"/>
    </properties>
   </object>
-  <object name="me.LevelEntity" x="240" y="109" width="16" height="16">
+  <object name="me.LevelEntity" x="240" y="100" width="16" height="16">
    <properties>
     <property name="duration" value="250"/>
     <property name="fade" value="#000000"/>

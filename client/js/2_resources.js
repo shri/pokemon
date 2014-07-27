@@ -19,8 +19,7 @@ game.resources = [
         name: "metatiles16x16",
         type: "image",
         src: "data/img/map/metatiles16x16.png"
-    },
-    {
+    }, {
         name: "inside_house",
         type: "image",
         src: "data/img/map/inside_house.png"
@@ -61,7 +60,7 @@ game.resources = [
         name: "area04",
         type: "tmx",
         src: "data/map/map2.tmx"
-    },{
+    }, {
         name: "inside_house",
         type: "tmx",
         src: "data/map/inside_house.tmx"
