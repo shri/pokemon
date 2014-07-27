@@ -16,6 +16,29 @@ game.PlayerEntity = me.ObjectEntity.extend({
 
         this.speed = 4;
 
+        var sen = sense.init({});
+        sen.orientation({
+                alphaThreshold: 365,
+                betaThreshold: 0.10,
+                gammaThreshold: 0.10,
+                radians: true
+            },
+            function(data) {
+                gamma = data.gamma;
+                beta = data.beta;
+                if (gamma < -0.10) {
+                    me.input.triggerKeyEvent(me.input.KEY.LEFT, true);
+                } else if (gamma > 0.10) {
+                    me.input.triggerKeyEvent(me.input.KEY.RIGHT, true);
+                }
+                if (beta < -0.10) {
+                    me.input.triggerKeyEvent(me.input.KEY.UP, true);
+                } else if (beta > 0.10) {
+                    me.input.triggerKeyEvent(me.input.KEY.DOWN, true);
+                }
+            }
+        );
+
 
     },
 
@@ -29,18 +52,23 @@ game.PlayerEntity = me.ObjectEntity.extend({
         if (me.input.isKeyPressed('left')) {
             this.flipX(true);
             this.vel.x -= this.speed * 1;
-            isInGrass = false;
 
+            if (this.vel.x > -12) {
+                this.vel.x -= this.speed * 1;
+            }
         } else if (me.input.isKeyPressed('right')) {
             this.flipX(false);
-            this.vel.x += this.speed * 1;
-            isInGrass = false;
+            if (this.vel.x < 12) {
+                this.vel.x += this.speed * 1;
+            }
         } else if (me.input.isKeyPressed('up')) {
-            this.vel.y -= this.speed * 1;
-            isInGrass = false;
+            if (this.vel.y > -12) {
+                this.vel.y -= this.speed * 1;
+            }
         } else if (me.input.isKeyPressed('down')) {
-            this.vel.y += this.speed * 1;
-            isInGrass = false;
+            if (this.vel.y < 12) {
+                this.vel.y += this.speed * 1;
+            }
         } else {
             this.vel.x = 0;
             this.vel.y = 0;
@@ -55,8 +83,8 @@ game.PlayerEntity = me.ObjectEntity.extend({
 
         if (res) {
             if (res.obj.type == me.game.ENEMY_OBJECT) {
-                    // let's flicker in case we touched an enemy
-                    // this.renderable.flicker(750);
+                // let's flicker in case we touched an enemy
+                // this.renderable.flicker(750);
             }
         }
 

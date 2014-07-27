@@ -56,6 +56,16 @@ function trainerBattle(user, opponent) {
     }
 
     if (opponentPokemon.status == 'fnt')  {
+      gainExperience('trainer', opponentPokemon, userPokemon);
+      //notify user of experience gained
+      if(userPokemon.level != levelUp(userPokemon)) {
+        //notify user of leveling up
+        userPokemon.level = levelUp(userPokemon);
+      }
+      if (userPokemon.Pokemon != evolve(userPokemon)) {
+        //notify user of evolving
+        userPokemong.Pokemon = evolve(userPokemon);
+      }
       if (opponent.whiteout()) {
         oppCounter += 1;
         if (oppCounter <= opponent.party.length)  {
