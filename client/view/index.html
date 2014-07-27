@@ -28,14 +28,29 @@
     (
         {
           alphaThreshold: 365,
-          betaThreshold: 0.05,
-          gammaThreshold: 0.05,
+          betaThreshold: 0.10,
+          gammaThreshold: 0.10,
           radians: true
         },
         function(data) {
-          gamma = data.gamma;
-          beta = data.beta;
-          alert(gamma,beta);
+            gamma = data.gamma;
+            beta = data.beta;
+            if ( gamma < -.10 )
+            {
+                // left
+            }
+            else if ( gamma > .10 )
+            {
+                // right
+            }
+            if ( beta < -.10 )
+            {
+                // up
+            }
+            else if ( beta > .10 )
+            {
+                // down
+            }
         }
     );
 
