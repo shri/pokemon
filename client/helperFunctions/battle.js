@@ -200,3 +200,57 @@ function wildBattle(user, wild) {
   //   return user;
   // }
 }
+
+
+function battle(user, opponent)  {
+  this.user = user;
+  this.party = getPokemonInParty(user);
+  this.wild = opponent;
+}
+
+battle.prototype.usePokeball = function(balltype) {
+  var catch = checkCatch(balltype, opponent);
+  var success
+  if (catch)  {
+    //add opponent to user's pokemon
+    //notify user that pokeball succeeded
+    endBattle();
+  }
+  else {
+    //notify user that pokeball failed
+  }
+  //decrement pokeball count
+  return catch;
+}
+
+battle.prototype.useAttack = function(move)  {
+  useMove(this.user, this.wild, move);
+}
+
+battle.prototype.runAway = function()  {
+  
+}
+
+battle.prototype.changePokemon = function(next) {
+  if (this.party[next] == this.user)  {
+    throw new Meteor.Error("this pokemon is already in battle");
+  }
+  else {
+    this.user = this.party[next];
+  }
+}
+
+battle.prototype.getAllPokemonInParty = function()  {
+  return this.party;
+}
+
+battle.prototype.endBattle = function() {
+  if (this.wild.status == 'fnt' || this.user.whiteout())  {
+    for (var i = 0; i < this.party.length; i++) {
+      var rHP = this.party[i].remainingHP;
+      //save stuff to database;
+    }
+    return true;
+  }
+  return false;
+}

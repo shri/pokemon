@@ -91,7 +91,14 @@ Meteor.methods({
         return Pokemons.update({ _id: pokemon._id }, { $set : { status: status } });
     },
     getPokemonInParty: function(user) {
-        return Pokemons.find({trainer: this.userId});
+        var array = Pokemons.find({trainer: this.userId});
+        var party = [];
+        for (var i= 0; i< array.length; i++)  {
+          if (array[i].position != 0) {
+            party.push(array[i]);
+          }
+        }
+        return party;
     },
     getPokemonInBox: function() {
         return Pokemons.find({trainer: this.userId, position: 0});
