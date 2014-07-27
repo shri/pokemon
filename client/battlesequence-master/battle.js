@@ -50,6 +50,17 @@ $(document).on("ready", function(){
 		
 	}
 
+	addEvolvingPokemon = function(from, to)
+	{
+		$("div.evolving.pokemon").html("<img class='animated flash' src='"+"http://img.pokemondb.net/sprites/black-white/anim/normal/"+from.toLowerCase()+".gif"+"'/>").delay(1000).queue(
+			function()
+			{
+				$("div.evolving.pokemon").html("<img class='animated flash' src='"+"http://img.pokemondb.net/sprites/black-white/anim/normal/"+to.toLowerCase()+".gif"+"'/>");
+			}
+		);
+		
+	}
+
 	battleEnd = function(success){
 		if(success==true){
 
