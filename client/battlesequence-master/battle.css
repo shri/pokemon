@@ -9,6 +9,16 @@
 	position: relative;
 }
 
+#menu{
+	height: 100px;
+	width: 640px;
+	background-color: white;
+	position: relative;
+	left:50%;
+	margin-left: -320px;
+	border-top:5px solid black;
+}
+
 #evolution{
 	height: 360px;
 	width: 640px;

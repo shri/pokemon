@@ -132,7 +132,7 @@ game.EnemyEntity = me.ObjectEntity.extend({
 
     onCollision: function(res, obj) {
         console.log('grass');
-        if (Math.random(1) < 0.005) {
+        if (Math.random(1) < 0.5) {
 
             $('#battle-content').show();
             $('canvas').hide();
