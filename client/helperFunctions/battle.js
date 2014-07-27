@@ -9,18 +9,29 @@ function trainerBattle(user, opponent) {
 
   while(!user.whiteout() && !opponent.whiteout()) {
     while (userPokemon.status != 'fnt' && opponentPokemon.status != 'fnt')  {
-      //prompt user for decision (fight, bag, switch)
-      //var userDecision = ['fight', 'bag' or 'switch']
-      //enemy trainer selects one move at random, store as opponentMove
+      //prompt user for decision (fight, bag, switch), using janky pop-ups for now LOOL
+      var userDecision = prompt("fight, bag, or switch?");
+      if (userDecision != "fight" && userDecision != "bag" && userDecision != "switch") {
+        throw new Meteor.Error("You entered " + userDecision + ", which is an invalid choice");
+      }
+
+      //var opponentChoice = Math.floor(opponentPokemon.moves.length * Math.random());
+      var opponentChoice = 0; //temporary hacky fix
+      var opponentMove = opponentPokemon.moves[opponentChoice]; //select one of the opponent's moves at random
 
       if (userDecision == 'switch') {
         //get the new pokemon selected by the user, store as newPokemon
+        var newPokemonInt = prompt("enter a number from 1 to 6");
+        userPokemon = user.party[newPokemonInt];
+
         normalizeStats(userPokemon); //method located in battleFunctions.js
         userPokemon = newPokemon;
         useMove(opponentPokemon, userPokemon, opponentMove); //method located in battleFunctions.js
       }
       else if (userDecision == 'bag') {
         //get the item selection by the user, store as item
+        var item = prompt("enter the name of the item you want to use");
+
         //check item.js
         item.effect(userPokemon);
         useMove(opponentPokemon, userPokemon, opponentMove);
@@ -28,7 +39,7 @@ function trainerBattle(user, opponent) {
 
       else if (userDecision == 'fight') {
 
-        //prompt user to choose an attack
+        var userMove = prompt("type in the name of the move you want to use (capitalize the first letter):");
 
         if (userPokemon.speed >= opponentPokemon.speed)  {
           useMove(userPokemon, opponentPokemon, userMove);
@@ -55,6 +66,7 @@ function trainerBattle(user, opponent) {
       }
     }
 
+    //levelUp and evolve are located in experience.js
     if (opponentPokemon.status == 'fnt')  {
       gainExperience('trainer', opponentPokemon, userPokemon);
       //notify user of experience gained
@@ -64,7 +76,7 @@ function trainerBattle(user, opponent) {
       }
       if (userPokemon.Pokemon != evolve(userPokemon)) {
         //notify user of evolving
-        userPokemong.Pokemon = evolve(userPokemon);
+        userPokemon.Pokemon = evolve(userPokemon);
       }
       if (opponent.whiteout()) {
         oppCounter += 1;
@@ -78,10 +90,110 @@ function trainerBattle(user, opponent) {
   if (user.whiteout())  {
     user.updateMoney(-user.money/2);
     //console.log("NOOB ALERT");
+    return opponent;
   }
   //if user wins, gain half of opponent's money
   //assuming that the update money takes in the change as a parameter
   if (opponent.whiteout())  {
     user.updateMoney(opponent.money/2);
+    return user;
   }
+}
+
+
+
+function wildBattle(user, wild) {
+  //set the two trainers participating in this battle
+  this.user = user;
+  this.wild = wild;
+
+  this.userPokemon = Meteor.call('getPokemonInParty')[0];
+
+
+  while(!user.whiteout() && wild.status != 'fnt') {
+    while (userPokemon.status != 'fnt' && opponentPokemon.status != 'fnt')  {
+      //prompt user for decision (fight, bag, switch), using janky pop-ups for now LOOL
+      var userDecision = prompt("fight, bag, or switch?");
+      if (userDecision != "fight" && userDecision != "bag" && userDecision != "switch") {
+        throw new Meteor.Error("You entered " + userDecision + ", which is an invalid choice");
+      }
+
+      //var opponentChoice = Math.floor(opponentPokemon.moves.length * Math.random());
+      var opponentChoice = 0; //temporary hacky fix
+      var opponentMove = wild.moves[opponentChoice]; //select one of the opponent's moves at random
+
+      if (userDecision == 'switch') {
+        //get the new pokemon selected by the user, store as newPokemon
+        var newPokemonInt = prompt("enter a number from 1 to 6");
+        userPokemon = user.party[newPokemonInt];
+
+        normalizeStats(userPokemon); //method located in battleFunctions.js
+        userPokemon = newPokemon;
+        useMove(wild, userPokemon, opponentMove); //method located in battleFunctions.js
+      }
+      else if (userDecision == 'bag') {
+        //get the item selection by the user, store as item
+        var item = prompt("enter the name of the item you want to use");
+
+        //check item.js
+        item.effect(userPokemon);
+        useMove(wild, userPokemon, opponentMove);
+      }
+
+      else if (userDecision == 'fight') {
+
+        var userMove = prompt("type in the name of the move you want to use (capitalize the first letter):");
+
+        if (userPokemon.speed >= wild.speed)  {
+          useMove(userPokemon, wild, userMove);
+          if (wild.status != 'fnt')  {
+            useMove(wild, userPokemon, opponentMove);
+          }
+        }
+
+        else {
+          useMove(wild, userPokemon, opponentMove);
+          if (userPokemon.status != 'fnt')  {
+            useMove(userPokemon, wild, userMove);
+          }
+        }
+      }
+
+    }
+    //when your pokemon faints, send out new pokemon
+    if (userPokemon.status == 'fnt')  {
+      if (!user.whiteout()) {
+        //prompt for new pokemon, set to newPokemon
+        normalizeStats(userPokemon);
+        userPokemon = newPokemon;
+      }
+    }
+
+    //levelUp and evolve are located in experience.js
+    if (wild.status == 'fnt')  {
+      gainExperience('trainer', opponentPokemon, userPokemon);
+      //notify user of experience gained
+      if(userPokemon.level != levelUp(userPokemon)) {
+        //notify user of leveling up
+        userPokemon.level = levelUp(userPokemon);
+      }
+      if (userPokemon.Pokemon != evolve(userPokemon)) {
+        //notify user of evolving
+        userPokemon.Pokemon = evolve(userPokemon);
+      }
+      return 'win';
+    }
+  }
+
+  if (user.whiteout())  {
+    //user.updateMoney(-user.money/2);
+    //console.log("NOOB ALERT");
+    return 'loss';
+  }
+  // //if user wins, gain half of opponent's money
+  // //assuming that the update money takes in the change as a parameter
+  // if (opponent.whiteout())  {
+  //   user.updateMoney(opponent.money/2);
+  //   return user;
+  // }
 }
