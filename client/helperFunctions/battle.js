@@ -209,7 +209,9 @@ function battle(user, opponent)  {
   this.userpokemon = this.party[0];
   this.wild = opponent;
   this.wildmoves = opponent.moves;
-  this.faster = (user.speed >= opponent.speed);
+  this.faster = (this.userpokemon.speed >= opponent.speed);
+  changeTrainerPokemon( pokemonInfo[this.userpokemon.pokemon].pokemon[ 0 ].Pokemon, this.userpokemon.remainingHP, this.userpokemon.HP, this.userpokemon.level );
+  changeOpponentPokemon( pokemonInfo[this.wild.pokemon].pokemon[ 0 ].Pokemon, this.wild.remainingHP, this.wild.HP, this.wild.level );
 }
 
 battle.prototype.usePokeball = function(balltype) {
