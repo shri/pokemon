@@ -95,10 +95,10 @@ Meteor.methods({
     },
     getPokemonInBox: function() {
         return Pokemons.find({trainer: this.userId, position: 0});
-    }
+    },
     whiteout: function()  {
       var party = Pokemons.find({trainer: this.userId});
-      for (int i = 0; i < party.length; i++) {
+      for (var i = 0; i < party.length; i++) {
         if (party[i].status != 'fnt') {
           return false;
         }
