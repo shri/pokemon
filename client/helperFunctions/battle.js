@@ -204,15 +204,19 @@ function wildBattle(user, wild) {
 
 function battle(user, opponent)  {
   this.user = user;
+
   this.party = getPokemonInParty(user);
+  this.userpokemon = this.party[0];
   this.wild = opponent;
+  this.wildmoves = opponent.moves;
+  this.faster = (user.speed >= opponent.speed);
 }
 
 battle.prototype.usePokeball = function(balltype) {
   var catch = checkCatch(balltype, opponent);
   var success
   if (catch)  {
-    //add opponent to user's pokemon
+    catchPokemon(this.wild);
     //notify user that pokeball succeeded
     endBattle();
   }
@@ -224,20 +228,38 @@ battle.prototype.usePokeball = function(balltype) {
 }
 
 battle.prototype.useAttack = function(move)  {
-  useMove(this.user, this.wild, move);
+  //useMove(this.userpokemon, this.wild, move);
+  if (this.user.speed >= this.wild.speed)  {
+    useMove(this.user, this.wild, move);
+    getAttacked();
+  }
+  else {
+    getAttacked();
+    useMove(this.user, this.wild, move);
+  }
 }
 
 battle.prototype.runAway = function()  {
-  
+
+}
+
+battle.prototype.getAttacked = function() {
+  useMove(this.wild, this.userpokemon, this.wildmoves[0]);
+}
+
+battle.prototype.useItem = function(item) {
+  effect(this.userpokemon, item);
+  getAttacked();
 }
 
 battle.prototype.changePokemon = function(next) {
-  if (this.party[next] == this.user)  {
-    throw new Meteor.Error("this pokemon is already in battle");
+  if (this.party[next] == this.userpokemon)  {
+    //throw new Meteor.Error("this pokemon is already in battle");
   }
   else {
-    this.user = this.party[next];
+    this.userpokemon = this.party[next];
   }
+  getAttacked();
 }
 
 battle.prototype.getAllPokemonInParty = function()  {

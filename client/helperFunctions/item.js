@@ -1,4 +1,4 @@
-function effect(pokemon)  {
+function effect(pokemon, name)  {
   switch (name) {
     case 'potion': updateRemainingHP(pokemon, 20); break;
     case 'super potion': updateRemainingHP(pokemon, 50); break;
