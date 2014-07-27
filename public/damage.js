@@ -255,7 +255,7 @@ var typemodifiers = {
 		"Poison" : 1,
 		"Ghost" : 1,
 		"Dragon" : 1
-	},
+	}
 }
 
 function calcDamage( offense, defense, move )
