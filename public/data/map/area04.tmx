@@ -62,7 +62,7 @@
   </object>
  </objectgroup>
  <objectgroup name="EnemyEntities" width="32" height="40">
-  <object name="EnemyEntity" x="290" y="96" width="16" height="16"/>
+  <object name="EnemyEntity" x="256" y="98" width="16" height="16"/>
   <object name="EnemyEntity" x="399" y="226" width="16" height="16"/>
   <object name="EnemyEntity" x="96" y="578" width="16" height="16"/>
   <object name="EnemyEntity" x="398" y="560" width="16" height="16"/>
