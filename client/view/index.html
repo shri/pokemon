@@ -3,11 +3,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="">
-
         <script src="/helperFunctions/sense.js"></script>
-
         <title>Pokemon Meteor</title>
-
     </head>
 
     <body>
@@ -17,22 +14,22 @@
         <div id="gb"></div>
         <div id="gb2"></div>
         <div id="battle-content"></div>
-        <button id="battle-btn" value="TEMP Battle Button">TEMP Battle Button</button>
-            
+        <button id="battle-btn" class="btn btn-default btn-small" value="TEMP Battle Button">Battle</button>
+
     </body>
     <script type="text/javascript">
     $(function() {
         game.onload();
     });
-
     </script>
     <script type="text/javascript">
-        $("#battle-btn").click(function() {
-            $('#battle-content').show();
-            Meteor.render(Meteor.loadTemplate('battle'));
-            setTimeout(function(){$('#battle-content').hide();},10000);
-        });
-
+    $("#battle-btn").click(function() {
+        $('#battle-content').show();
+        Meteor.render(Meteor.loadTemplate('battle'));
+        setTimeout(function() {
+            $('#battle-content').hide();
+        }, 1000);
+    });
     </script>
 
 </template>
