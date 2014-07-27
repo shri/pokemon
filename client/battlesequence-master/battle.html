@@ -37,18 +37,36 @@
 
         </div>
         <div id="menu">
-            <div id="menu-top-left">
-                Fight
+            <div id="menu-left">
+                <div id="menu-top-left">
+                    Fight
+                </div>
+                <div id="menu-bottom-left">
+                    Switch
+                </div>
             </div>
-            <div id="menu-top-right">
-                Bag
-            </div>
-            <div id="menu-bottom-left">
-                Run
-            </div>
-            <div id="menu-bottom-right">
-                Switch
+            <div id="menu-right">
+                <div id="menu-top-right">
+                    Bag
+                </div>
+                <div id="menu-bottom-right">
+                    Run
+                </div>
             </div>
         </div>
+        <script>
+            $('#menu-top-left').click(function(){
+            console.log('clicked top left - FIGHT');
+            });
+            $('#menu-top-right').click(function(){
+                console.log('clicked top right - BAG');
+            });
+            $('#menu-bottom-left').click(function(){
+                console.log('clicked bottom left - SWITCH');
+            });
+            $('#menu-bottom-right').click(function(){
+                console.log('clicked bottom right - RUN');
+            });
+        </script>
     </body>
 </template>

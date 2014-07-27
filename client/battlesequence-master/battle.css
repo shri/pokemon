@@ -17,6 +17,17 @@
 	left:50%;
 	margin-left: -320px;
 	border-top:5px solid black;
+	display: table-cell;
+	font-size: 2em;
+}
+#menu-left, #menu-right{
+	float:left;
+	width:50%;
+}
+#menu-top-left,#menu-top-right,#menu-bottom-left,#menu-bottom-right{
+	z-index: 100;
+	width: 100%;
+	position: relative;
 }
 
 #evolution{

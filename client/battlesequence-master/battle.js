@@ -77,5 +77,4 @@ $(document).on("ready", function(){
 	returnTrainerPokemon = function(){
 		$("div.user.pokemon").html("");
 	}
-
 });
