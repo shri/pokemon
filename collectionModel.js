@@ -67,6 +67,12 @@ Meteor.methods({
 //            throw new Meteor.Error(400, "You can only heal your own pokemons");
         return Pokemons.update({ _id: pokemon._id }, { $set: { "remainingHP": pokemon.HP }});
     },
+    healAllPokemon: function(user) {
+      Pokemons.find({trainer: this.userId}).forEach( function(pokemon) {
+        Pokemons.update({_id: pokemon._id}, { $set: { "remainingHP": pokemon.HP }});
+      });
+
+    },
     releasePokemon: function(pokemon) {
 //        if (pokemon.trainer !== this.userId)
 //            throw new Meteor.Error(400, "You can only release your own pokmeon");
