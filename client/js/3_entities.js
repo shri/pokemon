@@ -30,6 +30,7 @@ game.PlayerEntity = me.ObjectEntity.extend({
             function(data) {
                 gamma = data.gamma;
                 beta = data.beta;
+                $("#gb").html("gamma: "+gamma+", beta: "+beta);
                 if ( gamma < -0.10 )
                 {
                     me.input.triggerKeyEvent(me.input.KEY.LEFT, true);
@@ -63,7 +64,7 @@ game.PlayerEntity = me.ObjectEntity.extend({
             // flip the sprite on horizontal axis
             // this.flipX(true);
             // update the entity velocity
-            if ( this.vel.x > -12 )
+            if ( this.vel.x > -4 )
             {
                 this.vel.x -= this.speed * 1;
             }
@@ -71,7 +72,7 @@ game.PlayerEntity = me.ObjectEntity.extend({
             // unflip the sprite
             // this.flipX(false);
             // update the entity velocity
-            if ( this.vel.x < 12 )
+            if ( this.vel.x < 4 )
             {
                 this.vel.x += this.speed * 1 ;
             }
@@ -79,7 +80,7 @@ game.PlayerEntity = me.ObjectEntity.extend({
             // unflip the sprite
             // this.flipX(false);
             // update the entity velocity
-            if ( this.vel.y > -12 )
+            if ( this.vel.y > -4 )
             {
                 this.vel.y -= this.speed * 1 ;
             }
@@ -87,7 +88,7 @@ game.PlayerEntity = me.ObjectEntity.extend({
             // unflip the sprite
             // this.flipX(false);
             // update the entity velocity
-            if ( this.vel.y < 12 )
+            if ( this.vel.y < 4 )
             {
                 this.vel.y += this.speed * 1 ;
             }
