@@ -27,13 +27,13 @@ game.PlayerEntity = me.ObjectEntity.extend({
                 gamma = data.gamma;
                 beta = data.beta;
 
-                $("#gb").html("gamma: "+gamma+", beta: "+beta+", velx:"+me.vel.x);
+                $("#gb").html("gamma: "+gamma+", beta: "+beta);
                 if ( Math.abs( gamma ) > Math.abs( beta ) )
                 {
                     if (gamma > 0.10) {
                         me.input.triggerKeyEvent(me.input.KEY.RIGHT, true);
                     }
-                    else if ( gamma < -0.10 )
+                    if ( gamma < -0.10 )
                     {
                         me.input.triggerKeyEvent(me.input.KEY.LEFT, true);
                     }
@@ -43,7 +43,7 @@ game.PlayerEntity = me.ObjectEntity.extend({
                     if (beta < -0.10) {
                         me.input.triggerKeyEvent(me.input.KEY.UP, true);
                     } 
-                    else if (beta > 0.10) {
+                    if (beta > 0.10) {
                         me.input.triggerKeyEvent(me.input.KEY.DOWN, true);
                     }
                 }
@@ -63,20 +63,20 @@ game.PlayerEntity = me.ObjectEntity.extend({
         if (me.input.isKeyPressed('left')) {
 
             this.flipX(true);
-            if (this.vel.x > -4) {
+            if (this.vel.x > -8) {
                 this.vel.x -= this.speed * 1;
             }
         } else if (me.input.isKeyPressed('right')) {
             this.flipX(false);
-            if (this.vel.x < 4) {
+            if (this.vel.x < 8) {
                 this.vel.x += this.speed * 1;
             }
         } else if (me.input.isKeyPressed('up')) {
-            if (this.vel.y > -4) {
+            if (this.vel.y > -8) {
                 this.vel.y -= this.speed * 1;
             }
         } else if (me.input.isKeyPressed('down')) {
-            if (this.vel.y < 4) {
+            if (this.vel.y < 8) {
                 this.vel.y += this.speed * 1;
             }
         } else {
