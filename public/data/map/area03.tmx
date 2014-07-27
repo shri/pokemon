@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="24" height="20" tilewidth="16" tileheight="16">
  <tileset firstgid="1" name="normal1" tilewidth="16" tileheight="16">
   <image source="../img/map/normal1.png" width="512" height="512"/>
@@ -26,7 +25,7 @@
   </data>
  </layer>
  <objectgroup name="Entities" width="24" height="20">
-  <object name="mainPlayer" x="160" y="144" width="16" height="16">
+  <object name="mainPlayer" x="180" y="172" width="16" height="16">
    <properties>
     <property name="image" value="gripe_run_right"/>
     <property name="spritewidth" value="16"/>

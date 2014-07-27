@@ -4,8 +4,7 @@ game = {
 
 	// an object where to store game information
 	data : {
-		// score
-		score : 0
+        moving: true
 	},
 	
     // Run on page load.
@@ -45,6 +44,7 @@ game = {
 		
 		// add our player entity in the entity pool
 		me.pool.register("mainPlayer", game.PlayerEntity);
+        me.pool.register("EnemyEntity", game.EnemyEntity);
 			
 		// enable the keyboard
         me.input.bindKey(me.input.KEY.LEFT, 'left');

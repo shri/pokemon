@@ -7468,7 +7468,6 @@ window.me = window.me || {};
                     this.onladder = prop.isLadder || prop.isTopLadder;
 
                     if (collision.y > 0) {
-                        console.log("collision!");
                         if (!prop.isPlatform && prop.isSolid  ||
                             (prop.isTopLadder && !this.disableTopLadderCollision)) {
 
