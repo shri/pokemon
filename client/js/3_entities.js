@@ -15,7 +15,7 @@ game.PlayerEntity = me.ObjectEntity.extend({
         this.collidable = true;
         this.gravity = 0;
 
-        this.speed = 8;
+        this.speed = 4;
 
 
     },
@@ -31,23 +31,22 @@ game.PlayerEntity = me.ObjectEntity.extend({
             // flip the sprite on horizontal axis
             // this.flipX(true);
             // update the entity velocity
-            this.vel.x -= this.speed * me.timer.tick;
+            this.vel.x -= this.speed * 1;
         } else if (me.input.isKeyPressed('right')) {
             // unflip the sprite
             // this.flipX(false);
             // update the entity velocity
-            this.vel.x += this.speed * me.timer.tick ;
+            this.vel.x += this.speed * 1 ;
         } else if (me.input.isKeyPressed('up')) {
             // unflip the sprite
             // this.flipX(false);
             // update the entity velocity
-            this.vel.y -= this.speed * me.timer.tick ;
+            this.vel.y -= this.speed * 1 ;
         } else if (me.input.isKeyPressed('down')) {
             // unflip the sprite
             // this.flipX(false);
             // update the entity velocity
-            this.vel.y += this.speed * me.timer.tick ;
-            console.log("woo");
+            this.vel.y += this.speed * 1 ;
         } else {
             this.vel.x = 0;
             this.vel.y = 0;

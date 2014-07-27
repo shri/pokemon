@@ -15,9 +15,9 @@ function trainerBattle(user, opponent) {
 
       if (userDecision == 'switch') {
         //get the new pokemon selected by the user, store as newPokemon
-        normalizeStats(userPokemon);
+        normalizeStats(userPokemon); //method located in battleFunctions.js
         userPokemon = newPokemon;
-        useMove(opponentPokemon, userPokemon, opponentMove);
+        useMove(opponentPokemon, userPokemon, opponentMove); //method located in battleFunctions.js
       }
       else if (userDecision == 'bag') {
         //get the item selection by the user, store as item
@@ -27,7 +27,7 @@ function trainerBattle(user, opponent) {
       }
 
       else if (userDecision == 'fight') {
-        
+
         //prompt user to choose an attack
 
         if (userPokemon.speed >= opponentPokemon.speed)  {
@@ -49,7 +49,9 @@ function trainerBattle(user, opponent) {
     //when a pokemon faints, send out new pokemon
     if (userPokemon.status == 'fnt')  {
       if (!user.whiteout()) {
-        //prompt for new pokemon
+        //prompt for new pokemon, set to newPokemon
+        normalizeStats(userPokemon);
+        userPokemon = newPokemon;
       }
     }
 

@@ -3,24 +3,43 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="">
-        <script src="/js/pokemon.js"></script>
+
+        <script src="/helperFunctions/sense.js"></script>
+
         <title>Pokemon Meteor</title>
 
     </head>
 
     <body>
-        <div class="wrapper">
+        <div>
             {{> yield}}
         </div>
         <div id="battle-content"></div>
         <button id="battle-btn" value="TEMP Battle Button">TEMP Battle Button</button>
+            
     </body>
     <script type="text/javascript">
     $(function() {
         game.onload();
     });
-    </script>
+    var sense = sense.init({
+    });
+    sense.orientation
+    (
+        {
+          alphaThreshold: 365,
+          betaThreshold: 0.05,
+          gammaThreshold: 0.05,
+          radians: true
+        },
+        function(data) {
+          gamma = data.gamma;
+          beta = data.beta;
+          alert(gamma,beta);
+        }
+    );
 
+    </script>
     <script type="text/javascript">
         $("#battle-btn").click(function() {
             $('#battle-content').show();
