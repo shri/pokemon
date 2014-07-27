@@ -42,3 +42,16 @@ function levelUp( own )
 	}
 	
 }
+
+function evolve( own )
+{
+	var name = pokemonInfo[ own.pokemon ].pokemon[ 0 ].Pokemon;
+	if ( evolutions.name != undefined )
+	{
+		if ( own.level >= evolutions.level )
+		{
+			return evolutions.to;
+		}
+		reten false;
+	}
+}
