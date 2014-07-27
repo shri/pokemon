@@ -7458,15 +7458,18 @@ window.me = window.me || {};
 
                 var prop = collision.yprop;
                 var tile = collision.ytile;
-
+                
+                if (prop.isGrass) {
+                            console.log("walking in grass...");
+                }else {                
                 // y collision
                 if (collision.y) {
                     // going down, collision with the floor
                     this.onladder = prop.isLadder || prop.isTopLadder;
 
                     if (collision.y > 0) {
-                        if (prop.isSolid ||
-                            (prop.isPlatform && (this._bounds.bottom - 1 <= tile.pos.y)) ||
+                        console.log("collision!");
+                        if (!prop.isPlatform && prop.isSolid  ||
                             (prop.isTopLadder && !this.disableTopLadderCollision)) {
 
                             // adjust position to the corresponding tile
@@ -7480,7 +7483,7 @@ window.me = window.me || {};
                         else if (prop.isSlope && !this.jumping) {
                             // we stop falling
                             this.checkSlope(
-                                this._bounds,
+                                this._bounds, 
                                 tile,
                                 prop.isLeftSlope
                             );
@@ -7506,11 +7509,12 @@ window.me = window.me || {};
                                 );
                                 this.falling = false;
                             }
-                        }
+                        } 
                     }
                     // going up, collision with ceiling
                     else if (collision.y < 0) {
-                        if (!prop.isPlatform && !prop.isLadder && !prop.isTopLadder) {
+                        if ( !prop.isLadder ||
+                            (prop.isPlatform && (this._bounds.bottom - 1 <= tile.pos.y)) && !prop.isTopLadder) {
                             if (this.gravity) {
                                 this.falling = true;
                             }
@@ -7518,6 +7522,8 @@ window.me = window.me || {};
                             this.vel.y = 0;
                         }
                     }
+
+                }
                 }
 
                 prop = collision.xprop;
@@ -13417,7 +13423,8 @@ window.me = window.me || {};
             R_SLOPE : "rslope",
             LADDER : "ladder",
             TOPLADDER : "topladder",
-            BREAKABLE : "breakable"
+            BREAKABLE : "breakable",
+            GRASS : "grass"
         },
 
         // tile properties (collidable, etc..)
@@ -13530,6 +13537,7 @@ window.me = window.me || {};
             prop.isLadder = prop.type ? prop.type.toLowerCase() === this.type.LADDER : false;
             prop.isTopLadder = prop.type ? prop.type.toLowerCase() === this.type.TOPLADDER : false;
             prop.isSlope = prop.isLeftSlope || prop.isRightSlope;
+            prop.isGrass = prop.type ? prop.type.toLowerCase() === this.type.GRASS : false
 
             // ensure the collidable flag is correct
             prop.isCollidable = !!prop.type;

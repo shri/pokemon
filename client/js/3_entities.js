@@ -7,14 +7,15 @@ game.PlayerEntity = me.ObjectEntity.extend({
         this.parent(x, y, settings);
 
         // set the default horizontal & vertical speed (accel vector)
-        this.setVelocity(4, 4);
+        this.setVelocity(16, 16);
 
         // set the display to follow our position on both axis
-        me.game.viewport.follow(this.pos, me.game.viewport.AXIS.HORIZONTAL);
+        me.game.viewport.follow(this.pos, me.game.viewport.AXIS.BOTH);
 
-        this.setFriction(0.8, 0.8);
         this.collidable = true;
         this.gravity = 0;
+
+        this.speed = 4;
 
 
     },
@@ -28,38 +29,27 @@ game.PlayerEntity = me.ObjectEntity.extend({
 
         if (me.input.isKeyPressed('left')) {
             // flip the sprite on horizontal axis
-            this.flipX(true);
+            // this.flipX(true);
             // update the entity velocity
-            this.vel.x -= this.accel.x * me.timer.tick;
+            this.vel.x -= this.speed * 1;
         } else if (me.input.isKeyPressed('right')) {
             // unflip the sprite
-            this.flipX(false);
+            // this.flipX(false);
             // update the entity velocity
-            this.vel.x += this.accel.x * me.timer.tick;
+            this.vel.x += this.speed * 1 ;
         } else if (me.input.isKeyPressed('up')) {
             // unflip the sprite
-            this.flipX(false);
+            // this.flipX(false);
             // update the entity velocity
-            this.vel.y -= this.accel.y * me.timer.tick;
+            this.vel.y -= this.speed * 1 ;
         } else if (me.input.isKeyPressed('down')) {
             // unflip the sprite
-            this.flipX(false);
+            // this.flipX(false);
             // update the entity velocity
-            this.vel.y += this.accel.y * me.timer.tick;
+            this.vel.y += this.speed * 1 ;
         } else {
             this.vel.x = 0;
             this.vel.y = 0;
-        }
-        if (me.input.isKeyPressed('jump')) {
-            if (!this.jumping && !this.falling) {
-                // set current vel to the maximum defined value
-                // gravity will then do the rest
-                this.vel.y = -this.maxVel.y * me.timer.tick;
-                // set the jumping flag
-                this.jumping = true;
-                // play some audio 
-                me.audio.play("jump");
-            }
         }
 
         // check & update player movement

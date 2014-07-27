@@ -59,7 +59,7 @@ game.resources = [
     }, {
         name: "area04",
         type: "tmx",
-        src: "data/map/map2.tmx"
+        src: "data/map/area04.tmx"
     }, {
         name: "inside_house",
         type: "tmx",

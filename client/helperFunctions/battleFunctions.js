@@ -44,6 +44,16 @@ function useMove(attacker, defender, move) {
   if(checkHit(attacker, defender, move))  {
     var damage = calcDamage(attacker, defender, move);
     defender.remainingHP = Math.min(0, defender.remainingHP - damage);
+
+    //check for fainting (checks attacker as well for selfdestruct and explosion)
+    //updateStatus() method is in statusFunctions.js
+    if (attacker.remainingHP == 0)  {
+      updateStatus(attacker, 'fnt');
+    }
+    if (defender.remainingHP == 0)  {
+      updateStatus(defender, 'fnt');
+    }
+
     if (attacker.status != 'fnt') {
       move.userEffect(attacker);
     }
@@ -57,58 +67,12 @@ function useMove(attacker, defender, move) {
 //uses move's accuracy as a percentage hit rate, does not follow original game freak algorithms
 function checkHit(attacker, defender, move) {
   //if the defender fails the move's hit conditions (such as being airborne from using Fly) then it does not hit
-  if (move.hitCondition(defender))  {
-    if (100*Math.random() < move.accuracy)  {
-      return true;
-    }
+  var accuracy = moves[move]['accuracy'];
+  if (accuracy == '-')  {
+    accuracy = 100;
+  }
+  if (100*Math.random() < accuracy)  {
+    return true;
   }
   return false;
-}
-
-//changes the status of a pokemon during battle and applies the appropriate stat changes
-function updateStatus(pokemon, status)  {
-  if (status != 'psn' && status != 'par' && status != 'slp' && status != 'frz' && status != 'brn' && status != 'non' && status != 'fnt') {
-    throw new Meteor.Error("passed invalid status string: " + status + ". status must be par, slp, frz, brn, fnt, or non");
-  }
-  if (pokemon.status == 'non') {
-    pokemon.status = status;
-  }
-  else if (status = 'fnt')  {
-    pokemon.status = 'fnt';
-  }
-  else if (status = 'non')  {
-    if (pokemon.status != 'fnt')  {
-      pokemon.status = 'non';
-    }
-  }
-  //apply stat changes for paralysis and burn
-  if (pokemon.status == 'par')  {
-    updateBattleStat(pokemon, -6, speed);
-  }
-
-  if (pokemon.status == 'brn')  {
-    updateBattleStat(pokemon, Math.min(pokemon.attackstage - 2, -6), attack)
-  }
-
-  return pokemon.status;
-}
-
-//method for reviving pokemon during battle, which can only be done via revive or max revive
-function revive(pokemon, item)  {
-  //block using non-revive items and attempting to revive pokemon that haven't fainted
-  if (item != 'revive' && item != 'max revive') {
-    throw new Meteor.Error(item + " cannot be used to revive. only a revive or a max revive can be used to revive pokemon.");
-  }
-  if (pokemon.statue != 'fnt')  {
-    throw new Meteor.Error("the pokemon " + pokemon + " has not fainted. you can only use revive or max revive on a fainted pokemon.");
-  }
-  //revive the pokemon
-  pokemon.status = 'non';
-  if (item == 'revive') {
-    pokemon.remainingHP = Math.floor(pokemon.HP/2);
-  }
-  else if (item == 'max revive')  {
-    pokemon.remainingHP = pokemon.HP;
-  }
-  return pokemon;
 }
