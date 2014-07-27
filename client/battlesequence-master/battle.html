@@ -59,13 +59,17 @@
             </div>
         </div>
         <script>
+        var currbattle = {};
         $('#menu-top-left').click(function() {
+        	var moves = currbattle.userpokemon.moves;
             console.log('clicked top left - FIGHT');
         });
         $('#menu-top-right').click(function() {
             console.log('clicked top right - POKEBALL');
+            currbattle.usePokeball();
         });
         $('#menu-bottom-left').click(function() {
+        	var pokemonList = currbattle.party;
             console.log('clicked bottom left - SWITCH');
         });
         $('#menu-bottom-right').click(function() {
@@ -84,7 +88,9 @@
         });
 		function startBattle()
 		{
-			
+			var user = Meteor.users.findOne(1);
+			var opponent = {pokemon:'1', level: 3, moves: ['Tackle', 'Vine Whip'], attack: 45, defense: 45, spattack: 45, spdefense: 45, speed: 45, HP: 45, remainingHP:45, exp: 45, status: 'non', position: 0};
+			currbattle = new battle( user, opponent );
 		}
         </script>
     </body>
