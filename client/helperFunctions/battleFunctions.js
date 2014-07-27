@@ -44,7 +44,7 @@ useMove = function (attacker, defender, move) {
   if(checkHit(attacker, defender, move))  {
     var damage = calcDamage(attacker, defender, move);
     console.log(damage);
-    defender.remainingHP = Math.min(0, defender.remainingHP - damage);
+    defender.remainingHP = Math.max(0, defender.remainingHP - damage);
 
     //check for fainting (checks attacker as well for selfdestruct and explosion)
     //updateStatus() method is in statusFunctions.js

@@ -286,13 +286,6 @@ calcDamage = function ( offense, defense, move )
 	}
 	var Y = typemodifiers[ offtype ][ deftype ];
 	var Z = Math.random() * ( 255 - 217 + 1 ) + 217; 
-	console.log(B);
-	console.log(A);
-	console.log(C);
-	console.log(D);
-	console.log(X);
-	console.log(Y);
-	console.log(Z);
 	if ( C != "-" )
 	{
 		var damage = ( ( 2 * A / 5 + 2 ) * B * C / D / 50 + 2 ) * X * Y * Z / 255;
@@ -301,5 +294,6 @@ calcDamage = function ( offense, defense, move )
 	{
 		return 0;
 	}
-	return damage;
+	console.log(damage);
+	return parseInt(damage);
 }
