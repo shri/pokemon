@@ -52,6 +52,6 @@ function evolve( own )
 		{
 			return evolutions.to;
 		}
-		reten false;
+		return false;
 	}
 }

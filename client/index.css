@@ -14,8 +14,9 @@ body {
     margin: 0
 }
 
-#screen canvas {
+canvas {
     margin: auto;
+    height: 500px !important;
 
     /* Hide the gap for font descenders. */
     display: block;
@@ -31,4 +32,5 @@ body {
 
 .wrapper{
     margin: 0 auto;
+    width:40%;
 }
