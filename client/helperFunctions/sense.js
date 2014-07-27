@@ -378,35 +378,3 @@
   window.sense = sense;
 
 }(window, document));
-
-var sen = sense.init({
-    });
-    sen.orientation
-    (
-        {
-          alphaThreshold: 365,
-          betaThreshold: 0.10,
-          gammaThreshold: 0.10,
-          radians: true
-        },
-        function(data) {
-            gamma = data.gamma;
-            beta = data.beta;
-            if ( gamma < -0.10 )
-            {
-                // left
-            }
-            else if ( gamma > 0.10 )
-            {
-                // right
-            }
-            if ( beta < -0.10 )
-            {
-                // up
-            }
-            else if ( beta > 0.10 )
-            {
-                // down
-            }
-        }
-    ); 

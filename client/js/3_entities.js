@@ -17,6 +17,38 @@ game.PlayerEntity = me.ObjectEntity.extend({
 
         this.speed = 4;
 
+        var sen = sense.init({
+        });
+        sen.orientation
+        (
+            {
+              alphaThreshold: 365,
+              betaThreshold: 0.10,
+              gammaThreshold: 0.10,
+              radians: true
+            },
+            function(data) {
+                gamma = data.gamma;
+                beta = data.beta;
+                if ( gamma < -0.10 )
+                {
+                    me.input.triggerKeyEvent(me.input.KEY.LEFT, true);
+                }
+                else if ( gamma > 0.10 )
+                {
+                    me.input.triggerKeyEvent(me.input.KEY.RIGHT, true);
+                }
+                if ( beta < -0.10 )
+                {
+                    me.input.triggerKeyEvent(me.input.KEY.UP, true);
+                }
+                else if ( beta > 0.10 )
+                {
+                    me.input.triggerKeyEvent(me.input.KEY.DOWN, true);
+                }
+            }
+        ); 
+
 
     },
 
