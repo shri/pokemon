@@ -16,8 +16,11 @@ body {
 }
 canvas {
     margin: auto;
-    height: 400px !important;
-    width: 400px!important;
+/*    height: 400px !important;
+    width: 400px!important;*/
+    width: 100vw !important;
+    height: auto;
+
     /* Hide the gap for font descenders. */
     display: block;
     /* disable scaling interpolation */
@@ -36,10 +39,14 @@ canvas {
     position: absolute;
     z-index: 10;
     top: 100px;
-    left: 30%;
-    width: 400px;
-    height: 300px;
-    background-color: red;
-    opacity: 0.5;
+    width: 100vw;
+    height: auto;
     display: none;
+}
+.gameboy {
+    position: absolute;
+    width: 755px;
+    top: -30px;
+    left: calc(50% - 380px);
+    z-index: 10;
 }

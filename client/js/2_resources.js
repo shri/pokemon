@@ -4,6 +4,10 @@ game.resources = [
      */
     // our level tileset
     {
+        name: "title_screen",
+        type: "image",
+        src: "data/img/gui/title_screen.png"
+    }, {
         name: "area01_level_tiles",
         type: "image",
         src: "data/img/map/area01_level_tiles.png"
@@ -65,7 +69,7 @@ game.resources = [
         type: "tmx",
         src: "data/map/inside_house.tmx"
     },
-
+    // title screen
 
     // /* 
     //  * Background music. 

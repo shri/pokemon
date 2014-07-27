@@ -35,16 +35,13 @@ game.PlayerEntity = me.ObjectEntity.extend({
                     if (gamma > 0.10) {
                         me.input.triggerKeyEvent(me.input.KEY.RIGHT, true);
                     }
-                    if ( gamma < -0.10 )
-                    {
+                    if (gamma < -0.10) {
                         me.input.triggerKeyEvent(me.input.KEY.LEFT, true);
                     }
-                }
-                else
-                {
+                } else {
                     if (beta < -0.10) {
                         me.input.triggerKeyEvent(me.input.KEY.UP, true);
-                    } 
+                    }
                     if (beta > 0.10) {
                         me.input.triggerKeyEvent(me.input.KEY.DOWN, true);
                     }
@@ -99,7 +96,6 @@ game.PlayerEntity = me.ObjectEntity.extend({
                 // this.renderable.flicker(750);
             }
         }
-
 
         // update animation
         if (this.vel.x != 0 || this.vel.y != 0) {

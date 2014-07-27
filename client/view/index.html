@@ -1,4 +1,5 @@
 <template name="index">
+
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -6,25 +7,30 @@
         <script src="/helperFunctions/sense.js"></script>
         <title>Pokemon Meteor</title>
     </head>
-
-    <body>
-        <div>
-            {{> yield}}
-        </div>
-        <div id="gb"></div>
-        <div id="gb2"></div>
-        <div id="battle-content"></div>
-        <button id="battle-btn" class="btn btn-default btn-small" value="TEMP Battle Button">Battle</button>
-
-    </body>
     <script type="text/javascript">
     $(function() {
         game.onload();
     });
     </script>
+
+    <body>
+        <div>
+            {{> yield}}
+        </div>
+        <!--         <div id="gb"></div>
+        <div id="gb2"></div> -->
+        <!-- <img src="data/img/sprite/gameboy.png" class="gameboy" alt=""> -->
+        <div id="battle-content">
+            {{> battle}}
+        </div>
+        <button id="battle-btn" class="btn btn-default btn-small" value="TEMP Battle Button">Battle</button>
+
+    </body>
+
     <script type="text/javascript">
     $("#battle-btn").click(function() {
         $('#battle-content').show();
+        $('canvas').hide();
         Meteor.render(Meteor.loadTemplate('battle'));
         setTimeout(function() {
             $('#battle-content').hide();
