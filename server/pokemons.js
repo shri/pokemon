@@ -14,7 +14,6 @@ Pokemons.allow({
       }
     return false;
   }
-
 });
 
 Meteor.methods({
@@ -60,8 +59,10 @@ Meteor.methods({
             HP: pokemon.HP,
             remainingHP:pokemon.remainingHP,
             exp: pokemon.exp,
+
             status: pokemon.status
             catchrate: pokemon.catchrate,
+
         });
     },
     healPokemon: function(pokemon) {
@@ -70,8 +71,9 @@ Meteor.methods({
         return Pokemons.update({ _id: pokemon._id }, { $set: { "remainingHP": pokemon.HP }});
     },
     releasePokemon: function(pokemon) {
-        if (pokemon.trainer == this.userId)
-            return Pokemons.remote({ _id: pokemon._id });
+        if (pokemon.trainer !== this.userId)
+            throw new Meteor.Error(400, "You can only release your own pokmeon");
+        return Pokemons.remote({ _id: pokemon._id });
     },
     addMoveToPokemon: function(pokemon, move) {
         if (pokemon.moves >= 4)
@@ -117,5 +119,11 @@ Meteor.methods({
           updateBattleStat(pokemon, -2, "attack");
         }
         return Pokemons.update({ _id: pokemon._id }, { $set : { status: status } });
+    },
+    getPokemonInParty: function() {
+        return Pokemons.find({trainer: this.userId, position: { $gt: 0 }});
+    },
+    getPokemonInBox: function(user) {
+        return Pokemons.find({trainer: this.userId, position: 0});
     }
 });

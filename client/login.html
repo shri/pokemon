@@ -4,4 +4,57 @@
     <br />
 
     {{> loginButtons}}
+<<<<<<< HEAD
+<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  Launch demo modal
+</button>
+    {{> modal}}
+</template>
+
+
+<template name="modal">      
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        {{> modalInner}}
+    </div><!-- /.modal -->
+</template>      
+
+<template name="modalInner">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span>
+                    <span class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title">Choose Your Starter Pokemon! </h4>
+            </div>
+            <div class="modal-body text-center ">
+                
+                <div class="tab-content">
+                    <div class="tab-pane active" id="bulbasaur">
+                        <img src="http://img.pokemondb.net/sprites/black-white/anim/normal/bulbasaur.gif" /> <br />
+                        Bulbasaur
+                    </div>
+                    <div class="tab-pane" id="charmander">
+                        <img src="http://img.pokemondb.net/sprites/black-white/anim/normal/charmander.gif" /> <br />
+                        Charmander
+                    </div>
+                    <div class="tab-pane" id="squirtle">
+                        <img src="http://img.pokemondb.net/sprites/black-white/anim/normal/squirtle.gif" /> <br />
+                        Squirtle
+                    </div>
+                </div>  
+                <div style="height: 15px;"></div>
+                <div id="tab" class="btn-group" data-toggle="buttons-radio">
+                  <a href="#bulbasaur" class="btn btn-large btn-primary pokemon" data-toggle="tab">Bulbasaur</a>
+                  <a href="#charmander" class="btn btn-large btn-primary pokemon" data-toggle="tab">Charmander</a>
+                  <a href="#squirtle" class="btn btn-large btn-primary pokemon"  data-toggle="tab">Squirtle</a>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
 </template>
