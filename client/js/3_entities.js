@@ -28,16 +28,23 @@ game.PlayerEntity = me.ObjectEntity.extend({
                 beta = data.beta;
 
                 $("#gb").html("gamma: "+gamma+", beta: "+beta);
-                if ( gamma < -0.10 )
+                if ( Math.abs( gamma ) > Math.abs( beta ) )
                 {
-                    me.input.triggerKeyEvent(me.input.KEY.LEFT, true);
-                } else if (gamma > 0.10) {
-                    me.input.triggerKeyEvent(me.input.KEY.RIGHT, true);
+                    if ( gamma < -0.10 )
+                    {
+                        me.input.triggerKeyEvent(me.input.KEY.LEFT, true);
+                    } else if (gamma > 0.10) {
+                        me.input.triggerKeyEvent(me.input.KEY.RIGHT, true);
+                    }
                 }
-                if (beta < -0.10) {
-                    me.input.triggerKeyEvent(me.input.KEY.UP, true);
-                } else if (beta > 0.10) {
-                    me.input.triggerKeyEvent(me.input.KEY.DOWN, true);
+                else
+                {
+                    if (beta < -0.10) {
+                        me.input.triggerKeyEvent(me.input.KEY.UP, true);
+                    } 
+                    else if (beta > 0.10) {
+                        me.input.triggerKeyEvent(me.input.KEY.DOWN, true);
+                    }
                 }
             }
         );
