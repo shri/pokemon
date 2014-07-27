@@ -45,7 +45,7 @@ Meteor.methods({
             throw new Meteor.Error(400, "Pokemon must have HP");
         if (!pokemon.exp)
             throw new Meteor.Error(400, "Pokemon must have exp");
-            
+
         return Pokemons.insert({
             trainer: this.userId,
             pokemon: pokemon.pokemon,
@@ -77,7 +77,7 @@ Meteor.methods({
 //        if (pokemon.trainer !== this.userId)
 //            throw new Meteor.Error(400, "You can only release your own pokmeon");
         return Pokemons.remove({ _id: pokemon._id });
-        
+
     },
     addMoveToPokemon: function(pokemon, move) {
 //        if (pokemon.moves >= 4)
@@ -95,5 +95,14 @@ Meteor.methods({
     },
     getPokemonInBox: function() {
         return Pokemons.find({trainer: this.userId, position: 0});
+    },
+    whiteout: function()  {
+      var party = Pokemons.find({trainer: this.userId});
+      for (var i = 0; i < party.length; i++) {
+        if (party[i].status != 'fnt') {
+          return false;
+        }
+      }
+      return true;
     }
 });
