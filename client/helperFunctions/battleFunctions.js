@@ -97,10 +97,10 @@ function updateStatus(pokemon, status)  {
 function revive(pokemon, item)  {
   //block using non-revive items and attempting to revive pokemon that haven't fainted
   if (item != 'revive' && item != 'max revive') {
-    throw new Meteor.Error(item " cannot be used to revive. only a revive or a max revive can be used to revive pokemon.");
+    throw new Meteor.Error(item + " cannot be used to revive. only a revive or a max revive can be used to revive pokemon.");
   }
   if (pokemon.statue != 'fnt')  {
-    throw new Meteor.Error("the pokemon " + pokemon " has not fainted. you can only use revive or max revive on a fainted pokemon.");
+    throw new Meteor.Error("the pokemon " + pokemon + " has not fainted. you can only use revive or max revive on a fainted pokemon.");
   }
   //revive the pokemon
   pokemon.status = 'non';
