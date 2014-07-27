@@ -233,17 +233,41 @@ battle.prototype.useAttack = function(move)  {
   if (this.user.speed >= this.wild.speed)  {
     var rHP = useMove(this.userpokemon, this.wild, move);
     attackTrainerPokemon(rHP,this.userpokemon.HP);
+    console.log(rHP);
     if (rHP <= 0)
     {
-      winBattle();
+      console.log("hi");
+      $('#menu-left').hide();
+            $('#menu-right').hide();
+            $("#menu-message").show();
+            $("#menu-message").html("You won!");
+            setTimeout(function() {
+                $("#menu-message").hide();
+                $('#menu-left').show();
+                $('#menu-right').show();
+                $('#battle-content').hide();
+                $('canvas').show();
+            }, 2000);
       return;
     }
     this.getAttacked();
   }
   else {
+    console.log("else");
     var rHP = this.getAttacked();
     if (rHP <= 0)
     {
+      $('#menu-left').hide();
+            $('#menu-right').hide();
+            $("#menu-message").show();
+            $("#menu-message").html("You won!");
+            setTimeout(function() {
+                $("#menu-message").hide();
+                $('#menu-left').show();
+                $('#menu-right').show();
+                $('#battle-content').hide();
+                $('canvas').show();
+            }, 2000);
       return;
     }
     var rHP = useMove(this.userpokemon, this.wild, move);
