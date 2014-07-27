@@ -1,4 +1,4 @@
-pokemonInfo = [
+pokemon = [
    {
       "pokemon": [
          {
