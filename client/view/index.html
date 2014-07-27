@@ -5,16 +5,29 @@
         <meta name="description" content="">
         <script src="/js/pokemon.js"></script>
         <title>Pokemon Meteor</title>
+
     </head>
 
     <body>
         <div class="wrapper">
             {{> yield}}
         </div>
+        <div id="battle-content"></div>
+        <button id="battle-btn" value="TEMP Battle Button">TEMP Battle Button</button>
     </body>
     <script type="text/javascript">
     $(function() {
         game.onload();
     });
     </script>
+
+    <script type="text/javascript">
+        $("#battle-btn").click(function() {
+            $('#battle-content').show();
+            Meteor.render(Meteor.loadTemplate('battle'));
+            setTimeout(function(){$('#battle-content').hide();},10000);
+        });
+
+    </script>
+
 </template>
