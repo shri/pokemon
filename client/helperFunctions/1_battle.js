@@ -267,6 +267,8 @@ battle.prototype.useAttack = function(move)  {
                 $('#menu-right').show();
                 $('#battle-content').hide();
                 $('canvas').show();
+                $('audio#intro')[0].play();
+                $('audio#battle')[0].pause();
             }, 2000);
       return;
     }

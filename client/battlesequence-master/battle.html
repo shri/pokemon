@@ -8,10 +8,10 @@
     </head>
 
     <body>
-        <!--    <audio  autoplay="autoplay" loop>
-      <source src="http://mean2u.rfshq.com/downloads/music/battletheme.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
-    </audio> -->
+        <audio id="battle" autoplay="autoplay" loop>
+            <source src="http://mean2u.rfshq.com/downloads/music/battletheme.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+        </audio>
         <div id="screen-container">
             <div id="screen">
 
@@ -60,14 +60,14 @@
             </div>
         </div>
         <script>
+        $('audio#battle')[0].pause();
         currbattle = {};
         var fight = false;
         $('#menu-top-left').click(function() {
-        	if ( fight == true)
-        	{
-        		currbattle.useAttack($('#menu-top-left').text());
-        		return;
-        	}
+            if (fight == true) {
+                currbattle.useAttack($('#menu-top-left').text());
+                return;
+            }
             var moves = currbattle.userpokemon.moves;
             console.log('clicked top left - FIGHT');
             $('#menu-top-left').html(moves[0]);
@@ -85,20 +85,18 @@
             }, 2500);
         });
         $('#menu-top-right').click(function() {
-        	if ( fight == true)
-        	{
-        		currbattle.useAttack($('#menu-top-right').text());
-        		return;
-        	}
+            if (fight == true) {
+                currbattle.useAttack($('#menu-top-right').text());
+                return;
+            }
             console.log('clicked top right - POKEBALL');
             currbattle.usePokeball();
         });
         $('#menu-bottom-left').click(function() {
-        	if ( fight == true)
-        	{
-        		currbattle.useAttack($('#menu-bottom-left').text());
-        		return;
-        	}
+            if (fight == true) {
+                currbattle.useAttack($('#menu-bottom-left').text());
+                return;
+            }
             var pokemonList = currbattle.party;
             console.log('clicked bottom left - SWITCH');
             for (var poke in pokemonList) {
@@ -107,11 +105,10 @@
 
         });
         $('#menu-bottom-right').click(function() {
-        	if ( fight == true)
-        	{
-        		currbattle.useAttack($('#menu-bottom-right').text());
-        		return;
-        	}
+            if (fight == true) {
+                currbattle.useAttack($('#menu-bottom-right').text());
+                return;
+            }
             $('#menu-left').hide();
             $('#menu-right').hide();
             $("#menu-message").show();
@@ -122,12 +119,13 @@
                 $('#menu-right').show();
                 $('#battle-content').hide();
                 $('canvas').show();
+                $('audio#intro')[0].play();
+                $('audio#battle')[0].pause();
             }, 2000);
 
         });
 
-        winBattle = function()
-        {
+        winBattle = function() {
             $('#menu-left').hide();
             $('#menu-right').hide();
             $("#menu-message").show();
@@ -142,15 +140,42 @@
         }
 
         function startBattle() {
+            $('audio#battle')[0].play();
+            $('audio#intro')[0].pause();
             var user = {
-			  username:'000001',
-			  name:'Ash',
-			  gender:'Male',
-			  party:[
-			    {pokemon:25, level: 6, moves: ['Tackle', 'Thunder'], attack: 45, defense: 45, spattack: 45, spdefense: 45, speed: 45, HP: 45, remainingHP:45, exp: 45, status: 'non', position: 1},
-			    {pokemon:1, level: 3, moves: ['Tackle', 'Vine Whip'], attack: 45, defense: 45, spattack: 45, spdefense: 45, speed: 45, HP: 45, remainingHP:45, exp: 45, status: 'non', position: 2}
-			  ]
-			};
+                username: '000001',
+                name: 'Ash',
+                gender: 'Male',
+                party: [{
+                    pokemon: 25,
+                    level: 6,
+                    moves: ['Tackle', 'Thunder'],
+                    attack: 45,
+                    defense: 45,
+                    spattack: 45,
+                    spdefense: 45,
+                    speed: 45,
+                    HP: 45,
+                    remainingHP: 45,
+                    exp: 45,
+                    status: 'non',
+                    position: 1
+                }, {
+                    pokemon: 1,
+                    level: 3,
+                    moves: ['Tackle', 'Vine Whip'],
+                    attack: 45,
+                    defense: 45,
+                    spattack: 45,
+                    spdefense: 45,
+                    speed: 45,
+                    HP: 45,
+                    remainingHP: 45,
+                    exp: 45,
+                    status: 'non',
+                    position: 2
+                }]
+            };
             var opponent = {
                 pokemon: 1,
                 level: 3,
