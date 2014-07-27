@@ -65,7 +65,11 @@
                 console.log('clicked bottom left - SWITCH');
             });
             $('#menu-bottom-right').click(function(){
-                console.log('clicked bottom right - RUN');
+                $("#menu").html("&nbsp;&nbsp;You got away safely...!");
+                setTimeout(function(){
+                    $('#battle-content').hide();
+                    $('canvas').show();
+                },2000);
             });
         </script>
     </body>
