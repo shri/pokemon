@@ -42,18 +42,18 @@
                 <div id="menu-message"></div>
                 <div id="menu-left">
                     <div id="menu-top-left" class="menu-item">
-                        Fight
+                        FIGHT
                     </div>
                     <div id="menu-bottom-left" class="menu-item">
-                        Switch
+                        SWITCH
                     </div>
                 </div>
                 <div id="menu-right">
                     <div id="menu-top-right" class="menu-item">
-                        Poké Ball
+                        POKé BALL
                     </div>
                     <div id="menu-bottom-right" class="menu-item">
-                        Run
+                        RUN
                     </div>
                 </div>
             </div>
@@ -61,15 +61,26 @@
         <script>
         var currbattle = {};
         $('#menu-top-left').click(function() {
-        	var moves = currbattle.userpokemon.moves;
+            var moves = currbattle.userpokemon.moves;
             console.log('clicked top left - FIGHT');
+            $('#menu-top-left').html(moves[0]);
+            $('#menu-bottom-left').html(moves[1]);
+            $('#menu-top-right').html(moves[2]);
+            $('#menu-bottom-right').html(moves[3]);
+
+            setTimeout(function() {
+                $('#menu-top-left').html('FIGHT');
+                $('#menu-bottom-left').html('SWITCH');
+                $('#menu-top-right').html('POKé BALL');
+                $('#menu-bottom-right').html('RUN');
+            }, 2000);
         });
         $('#menu-top-right').click(function() {
             console.log('clicked top right - POKEBALL');
             currbattle.usePokeball();
         });
         $('#menu-bottom-left').click(function() {
-        	var pokemonList = currbattle.party;
+            var pokemonList = currbattle.party;
             console.log('clicked bottom left - SWITCH');
         });
         $('#menu-bottom-right').click(function() {
@@ -86,12 +97,26 @@
             }, 2000);
 
         });
-		function startBattle()
-		{
-			var user = Meteor.users.findOne(1);
-			var opponent = {pokemon:'1', level: 3, moves: ['Tackle', 'Vine Whip'], attack: 45, defense: 45, spattack: 45, spdefense: 45, speed: 45, HP: 45, remainingHP:45, exp: 45, status: 'non', position: 0};
-			currbattle = new battle( user, opponent );
-		}
+
+        function startBattle() {
+            var user = Meteor.users.findOne(1);
+            var opponent = {
+                pokemon: '1',
+                level: 3,
+                moves: ['Tackle', 'Vine Whip'],
+                attack: 45,
+                defense: 45,
+                spattack: 45,
+                spdefense: 45,
+                speed: 45,
+                HP: 45,
+                remainingHP: 45,
+                exp: 45,
+                status: 'non',
+                position: 0
+            };
+            currbattle = new battle(user, opponent);
+        }
         </script>
     </body>
 </template>
