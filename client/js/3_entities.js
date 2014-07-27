@@ -107,7 +107,6 @@ game.PlayerEntity = me.ObjectEntity.extend({
         // any update (e.g. position, animation)
         return false;
     }
-
 });
 
 
@@ -129,15 +128,13 @@ game.EnemyEntity = me.ObjectEntity.extend({
 
     },
 
-
     onCollision: function(res, obj) {
         console.log('grass');
-        if (Math.random(1) < 0.005) {
-
-            $('#battle-content').show();
-            $('canvas').hide();
-            Meteor.render(Meteor.loadTemplate('battle'));
-            me.game.world.removeChild(this);
-        }
+        // if (Math.random(1) < 0.005) {
+        $('#battle-content').show();
+        $('canvas').hide();
+        Meteor.render(Meteor.loadTemplate('battle'));
+        me.game.world.removeChild(this);
+        // }
     }
 });
