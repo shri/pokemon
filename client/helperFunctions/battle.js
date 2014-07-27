@@ -205,7 +205,7 @@
 function battle(user, opponent)  {
   this.user = user;
 
-  this.party = getPokemonInParty(user);
+  this.party = user.party;
   this.userpokemon = this.party[0];
   this.wild = opponent;
   this.wildmoves = opponent.moves;
@@ -263,9 +263,6 @@ battle.prototype.changePokemon = function(next) {
   getAttacked();
 }
 
-battle.prototype.getAllPokemonInParty = function()  {
-  return this.party;
-}
 
 battle.prototype.endBattle = function() {
   if (this.wild.status == 'fnt' || this.user.whiteout())  {

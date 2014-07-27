@@ -104,7 +104,15 @@
         });
 
         function startBattle() {
-            var user = Meteor.users.findOne(1);
+            var user = {
+			  username:'000001',
+			  name:'Ash',
+			  gender:'Male',
+			  party:[
+			    {pokemon:'25', level: 33, moves: ['Tackle', 'Thunder'], attack: 45, defense: 45, spattack: 45, spdefense: 45, speed: 45, HP: 45, remainingHP:45, exp: 45, status: 'non', position: 1},
+			    {pokemon:'1', level: 3, moves: ['Tackle', 'Vine Whip'], attack: 45, defense: 45, spattack: 45, spdefense: 45, speed: 45, HP: 45, remainingHP:45, exp: 45, status: 'non', position: 2}
+			  ]
+			};
             var opponent = {
                 pokemon: '1',
                 level: 3,
