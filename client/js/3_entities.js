@@ -51,10 +51,8 @@ game.PlayerEntity = me.ObjectEntity.extend({
 
         if (me.input.isKeyPressed('left')) {
             this.flipX(true);
-            this.vel.x -= this.speed * 1;
-
             if (this.vel.x > -12) {
-                this.vel.x -= this.speed * 1;
+                this.vel.x -= this.speed * 2;
             }
         } else if (me.input.isKeyPressed('right')) {
             this.flipX(false);
@@ -125,7 +123,7 @@ game.EnemyEntity = me.ObjectEntity.extend({
 
     onCollision: function(res, obj) {
         console.log('grass');
-        if (Math.random(1) < 0.001) {
+        if (Math.random(1) < 0.005) {
             alert('pokemon battle!');
             me.game.world.removeChild(this);
         }
