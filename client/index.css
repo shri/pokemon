@@ -16,7 +16,8 @@ body {
 
 canvas {
     margin: auto;
-    height: 500px !important;
+    height: 400px !important;
+    width: 400px!important;
 
     /* Hide the gap for font descenders. */
     display: block;
