@@ -65,7 +65,7 @@
         $('#menu-top-left').click(function() {
         	if ( fight == true)
         	{
-        		currbattle.useAttack($(this).text());
+        		currbattle.useAttack($('#menu-top-left').text());
         		return;
         	}
             var moves = currbattle.userpokemon.moves;
@@ -87,7 +87,7 @@
         $('#menu-top-right').click(function() {
         	if ( fight == true)
         	{
-        		currbattle.useAttack($(this).text());
+        		currbattle.useAttack($('#menu-top-right').text());
         		return;
         	}
             console.log('clicked top right - POKEBALL');
@@ -96,7 +96,7 @@
         $('#menu-bottom-left').click(function() {
         	if ( fight == true)
         	{
-        		currbattle.useAttack($(this).text());
+        		currbattle.useAttack($('#menu-bottom-left').text());
         		return;
         	}
             var pokemonList = currbattle.party;
@@ -109,7 +109,7 @@
         $('#menu-bottom-right').click(function() {
         	if ( fight == true)
         	{
-        		currbattle.useAttack($(this).text());
+        		currbattle.useAttack($('#menu-bottom-right').text());
         		return;
         	}
             $('#menu-left').hide();
@@ -132,12 +132,12 @@
 			  name:'Ash',
 			  gender:'Male',
 			  party:[
-			    {pokemon:'25', level: 33, moves: ['Tackle', 'Thunder'], attack: 45, defense: 45, spattack: 45, spdefense: 45, speed: 45, HP: 45, remainingHP:45, exp: 45, status: 'non', position: 1},
-			    {pokemon:'1', level: 3, moves: ['Tackle', 'Vine Whip'], attack: 45, defense: 45, spattack: 45, spdefense: 45, speed: 45, HP: 45, remainingHP:45, exp: 45, status: 'non', position: 2}
+			    {pokemon:25, level: 6, moves: ['Tackle', 'Thunder'], attack: 45, defense: 45, spattack: 45, spdefense: 45, speed: 45, HP: 45, remainingHP:45, exp: 45, status: 'non', position: 1},
+			    {pokemon:1, level: 3, moves: ['Tackle', 'Vine Whip'], attack: 45, defense: 45, spattack: 45, spdefense: 45, speed: 45, HP: 45, remainingHP:45, exp: 45, status: 'non', position: 2}
 			  ]
 			};
             var opponent = {
-                pokemon: '1',
+                pokemon: 1,
                 level: 3,
                 moves: ['Tackle', 'Vine Whip'],
                 attack: 45,

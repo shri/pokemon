@@ -1,5 +1,5 @@
 //applies changes to stats during battle
-function updateBattleStat(pokemon, stage, stat)  {
+updateBattleStat = function (pokemon, stage, stat)  {
       var modifier;
       switch(stage) {
         case -6: modifier = 1.0/4; break;
@@ -29,7 +29,7 @@ function updateBattleStat(pokemon, stage, stat)  {
 }
 
 //reverts stat changes, for use upon switching or ending the battle
-function normalizeStats(pokemon)  {
+normalizeStats = function (pokemon)  {
   pokemon.battleattack = pokemon.attack;
   pokemon.battledefense = pokemon.defense;
   pokemon.battlespattack = pokemon.spattack;
@@ -40,9 +40,10 @@ function normalizeStats(pokemon)  {
 
 //carries out a move from an attacker on a defender
 //resolves all effects of the move
-function useMove(attacker, defender, move) {
+useMove = function (attacker, defender, move) {
   if(checkHit(attacker, defender, move))  {
     var damage = calcDamage(attacker, defender, move);
+    console.log(damage);
     defender.remainingHP = Math.min(0, defender.remainingHP - damage);
 
     //check for fainting (checks attacker as well for selfdestruct and explosion)
@@ -54,18 +55,19 @@ function useMove(attacker, defender, move) {
       updateStatus(defender, 'fnt');
     }
 
-    if (attacker.status != 'fnt') {
-      move.userEffect(attacker);
-    }
-    if (defender.status != 'fnt') {
-      move.targetEffect(defender);
-    }
+    // if (attacker.status != 'fnt') {
+    //   move.userEffect(attacker);
+    // }
+    // if (defender.status != 'fnt') {
+    //   move.targetEffect(defender);
+    // }
+    return defender.remainingHP;
   }
 }
 
 //calculates if a move hits or not, depending on the move's conditions and accuracy
 //uses move's accuracy as a percentage hit rate, does not follow original game freak algorithms
-function checkHit(attacker, defender, move) {
+checkHit = function (attacker, defender, move) {
   //if the defender fails the move's hit conditions (such as being airborne from using Fly) then it does not hit
   var accuracy = moves[move]['accuracy'];
   if (accuracy == '-')  {

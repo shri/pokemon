@@ -258,23 +258,25 @@ var typemodifiers = {
 	}
 }
 // pass offense pokemon instance, defense pokemon instance, and move
-function calcDamage( offense, defense, move )
+calcDamage = function ( offense, defense, move )
 {
-	var offtype = pokemonInfo[ offense.pokemon - 1 ].stats.types.text;
-	var deftype = pokemonInfo[ defense.pokemon - 1 ].stats.types.text;
+	console.log(offense.pokemon-1);
+	console.log(defense.pokemon-1);
+	var offtype = pokemonInfo[ offense.pokemon - 1 ].stats[0].types.text;
+	var deftype = pokemonInfo[ defense.pokemon - 1 ].stats[0].types.text;
 	var move = moves[ move ];
 	var movetype = move.type.text;
 
 	var A = offense.level;
 	if ( movetype == "Water" || movetype == "Grass" || movetype == "Fire" || movetype == "Ice" || movetype == "Electric" || movetype == "Psychic")
 	{
-		var B = offense.battlespattack;
-		var D = defense.battlespdefense;
+		var B = offense.spattack;
+		var D = defense.spdefense;
 	}
 	else
 	{
-		var B = offense.battleattack;
-		var D = defense.battledefense;
+		var B = offense.attack;
+		var D = defense.defense;
 	}
 	var C = moves.power;
 	var X = 1;
@@ -284,6 +286,13 @@ function calcDamage( offense, defense, move )
 	}
 	var Y = typemodifiers[ offtype ][ deftype ];
 	var Z = Math.random() * ( 255 - 217 + 1 ) + 217; 
+	console.log(B);
+	console.log(A);
+	console.log(C);
+	console.log(D);
+	console.log(X);
+	console.log(Y);
+	console.log(Z);
 	if ( C != "-" )
 	{
 		var damage = ( ( 2 * A / 5 + 2 ) * B * C / D / 50 + 2 ) * X * Y * Z / 255;
