@@ -63,22 +63,34 @@ game.PlayerEntity = me.ObjectEntity.extend({
             // flip the sprite on horizontal axis
             // this.flipX(true);
             // update the entity velocity
-            this.vel.x -= this.speed * 1;
+            if ( this.vel.x > -12 )
+            {
+                this.vel.x -= this.speed * 1;
+            }
         } else if (me.input.isKeyPressed('right')) {
             // unflip the sprite
             // this.flipX(false);
             // update the entity velocity
-            this.vel.x += this.speed * 1 ;
+            if ( this.vel.x < 12 )
+            {
+                this.vel.x += this.speed * 1 ;
+            }
         } else if (me.input.isKeyPressed('up')) {
             // unflip the sprite
             // this.flipX(false);
             // update the entity velocity
-            this.vel.y -= this.speed * 1 ;
+            if ( this.vel.y > -12 )
+            {
+                this.vel.y -= this.speed * 1 ;
+            }
         } else if (me.input.isKeyPressed('down')) {
             // unflip the sprite
             // this.flipX(false);
             // update the entity velocity
-            this.vel.y += this.speed * 1 ;
+            if ( this.vel.y < 12 )
+            {
+                this.vel.y += this.speed * 1 ;
+            }
         } else {
             this.vel.x = 0;
             this.vel.y = 0;
